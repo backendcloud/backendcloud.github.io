@@ -1,0 +1,31 @@
+---
+title: 欢迎光临
+---
+
+# 欢迎光临
+
+<hr/>
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}>
+    {children}
+  </span>
+);
+
+<Highlight color="#25c2a0">联系方式:</Highlight> 
+
+* 可在后端云公众号直接留言
+* ✉ **[backendcloud@gmail.com](mailto:backendcloud@gmail.com)**
+
+<hr/>
+
+<Highlight color="#1877F2">欢迎您扫一扫下面的微信公众号对"后端云"进行订阅！</Highlight>
+
+![](/img/wechat-dingyuehao.jpg)
+
