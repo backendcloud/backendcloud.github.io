@@ -15,3 +15,9 @@ slorber:
   title: Docusaurus maintainer
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
+
+backendcloud:
+  name: backendcloud
+  title: 后端云
+  url: https://www.backendcloud.cn
+  image_url: https://avatars.githubusercontent.com/u/15382060?v=4
