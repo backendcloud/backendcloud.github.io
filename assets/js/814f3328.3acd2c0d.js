@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk=self.webpackChunk||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u7f51\u7ad9\u51c6\u5907\u4eceHexo\u8fc1\u79fb\u5230Docusaurus","permalink":"/blog/Hexo2Docusaurus"}]}')}}]);
