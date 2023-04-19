@@ -39,7 +39,6 @@ Hexo2DocusaurusBlog.exe -h
 
 ## 例子
 
-### Input
 
 Hexo 博客的markdown文件位于: input/hexo-blog-for-test.md:
 
@@ -51,8 +50,6 @@ INFO: [DRY-RUN] Write Docusaurus Blog [hexo-blog-for-test] Success!
 
 > -dry-run : perform a trial run with no changes made
 
-
-### Output
 
 
 ```bash
