@@ -74,11 +74,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '文档',
+            label: '知识库',
           },
           {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/backendcloud',
+            href: 'https://github.com/backendcloud/backendcloud.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -88,10 +88,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '网站导航：',
+            title: '站内导航：',
             items: [
               {
-                label: '文档',
+                label: '知识库',
                 to: '/docs/intro',
               },
               {
@@ -118,15 +118,31 @@ const config = {
           //   ],
           // },
           {
-            title: '更多：',
+            title: '更多站外资源：',
             items: [
               {
-                label: '存档的hexo博客',
+                label: '存档的hexo博客（2023年04月17日之前的博客文章）',
                 href: 'https://www.backendcloud.cn/2023/04/17/Hexo2Docusaurus/',
               },
               {
-                label: 'GitHub',
+                label: 'GitHub（后端云网址里的所有示例代码的相关仓库）',
                 href: 'https://github.com/backendcloud',
+              },
+              {
+                label: 'GitHub（后端云网站的代码仓库）',
+                href: 'https://github.com/backendcloud.github.io',
+              },
+              {
+                label: 'GitHub（KubeFusion项目仓库）',
+                href: 'https://github.com/kubefusion',
+              },
+              {
+                label: 'GitHub（通用人工智能和自动化相结合的项目仓库）',
+                href: 'https://github.com/AutoGeneralAI',
+              },
+              {
+                label: 'GitHub（其他代码仓库）',
+                href: 'https://github.com/c-hanwei',
               },
             ],
           },
