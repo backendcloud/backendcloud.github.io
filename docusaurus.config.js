@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/backendcloud/docusaurus/tree/main/',
+            'https://github.com/backendcloud/backendcloud.github.io/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/backendcloud/docusaurus/tree/main/',
+            'https://github.com/backendcloud/backendcloud.github.io/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -130,7 +130,7 @@ const config = {
               },
               {
                 label: 'GitHub（后端云网站的代码仓库）',
-                href: 'https://github.com/backendcloud.github.io',
+                href: 'https://github.com/backendcloud/backendcloud.github.io',
               },
               {
                 label: 'GitHub（KubeFusion项目仓库）',
