@@ -50,11 +50,6 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/backendcloud/backendcloud.github.io/tree/main/',
-          blogSidebarTitle: '全部博文',
-          blogSidebarCount: 'ALL',
-          blogTitle: '后端云 博客！',
-          // blogDescription: '这是个用 Docusaurus 搭建的博客！',
-          postsPerPage: '3',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
