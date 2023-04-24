@@ -3,7 +3,7 @@ slug: voice-assistant
 title: 发布一个开源小项目 - 语音助手
 authors: [backendcloud]
 tags: 
-- CICD
+- 通用人工智能
 ---
 
 实现的功能：语音助手。通过调用OpenAI官方API实现。
@@ -20,7 +20,7 @@ tags:
 
 > 可以保存对话记录。目前只实现了对话。人类的角色可以语音，AI角色还是以文字输出。文字朗读出来的功能留待下次实现或者欢迎提pr。
 
-![image](https://user-images.githubusercontent.com/105260427/234028574-eeb218f9-363a-4fee-88bf-8170b677e2e1.png)
+![](https://user-images.githubusercontent.com/105260427/234028574-eeb218f9-363a-4fee-88bf-8170b677e2e1.png)
 
 **input:**
 
