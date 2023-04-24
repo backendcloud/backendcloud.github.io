@@ -17,11 +17,11 @@ tags:
 ## 背景
 自从ChatGPT开放了官方API后，调用API的产品层出不穷，各种软件，各种Chrome插件，各种IDE插件，各种网站，各种小程序，各种APP，各种聊天机器人。
 
-于是自己也开发了写调用ChatGPT API的小项目，比如：
+于是自己也开发了些调用ChatGPT API的小项目，比如：
 * https://github.com/AutoGeneralAI/gpt-pdf
 * https://github.com/AutoGeneralAI/poem2picture
 
-但这些项目都是命令行的，不够直观，于是就想做一个GUI版的ChatGPT API，于是就有了这个项目。
+但这些项目都是命令行的，不够直观和界面友好，于是就想做一个GUI版的ChatGPT API，于是就有了这个项目。
 
 可以在线体验 https://huggingface.co/spaces/AutoGeneralAI/ChatGPT
 
