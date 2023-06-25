@@ -1,0 +1,37 @@
+{
+  "unversionedId": "cloud-native/client-go/client-go-07",
+  "id": "cloud-native/client-go/client-go-07",
+  "title": "client-go 源码分析（7） - workerqueue之普通队列Queue",
+  "description": "client-go 的 util/workqueue 包里主要有三个队列，分别是普通队列Queue，延时队列DelayingQueue，限速队列RateLimitingQueue，后一个队列以前一个队列的实现为基础，层层添加新功能。",
+  "source": "@site/docs/cloud-native/client-go/client-go-07.md",
+  "sourceDirName": "cloud-native/client-go",
+  "slug": "/cloud-native/client-go/client-go-07",
+  "permalink": "/docs/cloud-native/client-go/client-go-07",
+  "draft": false,
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-07.md",
+  "tags": [
+    {
+      "label": "client-go",
+      "permalink": "/docs/tags/client-go"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "client-go 源码分析（7） - workerqueue之普通队列Queue",
+    "readmore": true,
+    "date": "2022-12-14T12:35:57.000Z",
+    "categories": "云原生",
+    "tags": [
+      "client-go"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "client-go 源码分析（6） - DeltaFIFO",
+    "permalink": "/docs/cloud-native/client-go/client-go-06"
+  },
+  "next": {
+    "title": "client-go 源码分析（8） - workerqueue之延时队列DelayingQueue",
+    "permalink": "/docs/cloud-native/client-go/client-go-08"
+  }
+}

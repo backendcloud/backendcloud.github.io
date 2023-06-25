@@ -1,0 +1,16 @@
+{
+  "title": "云原生",
+  "description": "云原生",
+  "slug": "/category/云原生",
+  "permalink": "/docs/category/云原生",
+  "navigation": {
+    "previous": {
+      "title": "intro",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "client-go",
+      "permalink": "/docs/category/client-go"
+    }
+  }
+}

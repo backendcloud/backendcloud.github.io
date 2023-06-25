@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/voice-assistant",
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-25-voice-assistant.md",
+  "source": "@site/blog/2023-04-25-voice-assistant.md",
+  "title": "发布一个开源小项目 - 语音助手",
+  "description": "实现的功能：语音助手。通过调用OpenAI官方API实现。",
+  "date": "2023-04-25T00:00:00.000Z",
+  "formattedDate": "2023年4月25日",
+  "tags": [
+    {
+      "label": "通用人工智能",
+      "permalink": "/blog/tags/通用人工智能"
+    }
+  ],
+  "readingTime": 1.285,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "backendcloud",
+      "title": "后端云",
+      "url": "https://www.backendcloud.cn",
+      "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+      "key": "backendcloud"
+    }
+  ],
+  "frontMatter": {
+    "slug": "voice-assistant",
+    "title": "发布一个开源小项目 - 语音助手",
+    "authors": [
+      "backendcloud"
+    ],
+    "tags": [
+      "通用人工智能"
+    ]
+  },
+  "prevItem": {
+    "title": "软微最新的HuggingGPT论文解读",
+    "permalink": "/blog/hugginggpt-paper"
+  },
+  "nextItem": {
+    "title": "发布一个开源小项目 - Hugging Push",
+    "permalink": "/blog/Hugging-Push"
+  }
+}

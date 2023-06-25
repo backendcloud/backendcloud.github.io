@@ -1,0 +1,37 @@
+{
+  "unversionedId": "cloud-native/client-go/client-go-01",
+  "id": "cloud-native/client-go/client-go-01",
+  "title": "client-go 源码分析（1） - discovery模块：discoveryclient获取所有的gv和gvr",
+  "description": "本篇是client-go源码分析的第一篇，client-go是从事Kubernetes开发必研究的项目，client-go之所以重要，主要在以下几个方面：",
+  "source": "@site/docs/cloud-native/client-go/client-go-01.md",
+  "sourceDirName": "cloud-native/client-go",
+  "slug": "/cloud-native/client-go/client-go-01",
+  "permalink": "/docs/cloud-native/client-go/client-go-01",
+  "draft": false,
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-01.md",
+  "tags": [
+    {
+      "label": "client-go",
+      "permalink": "/docs/tags/client-go"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "client-go 源码分析（1） - discovery模块：discoveryclient获取所有的gv和gvr",
+    "readmore": false,
+    "date": "2022-11-24T12:21:32.000Z",
+    "categories": "云原生",
+    "tags": [
+      "client-go"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "client-go",
+    "permalink": "/docs/category/client-go"
+  },
+  "next": {
+    "title": "client-go 源码分析（2） - discovery模块：discovery cache",
+    "permalink": "/docs/cloud-native/client-go/client-go-02"
+  }
+}

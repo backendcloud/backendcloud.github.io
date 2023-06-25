@@ -1,0 +1,1260 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
+          "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs",
+          "editUrlLocalized": "https://github.com/backendcloud/backendcloud.github.io/tree/main/i18n/zh-Hans/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "C:\\Users\\hanwei\\Documents\\Github\\backendcloud.github.io\\sidebars.js",
+          "contentPath": "C:\\Users\\hanwei\\Documents\\Github\\backendcloud.github.io\\docs",
+          "contentPathLocalized": "C:\\Users\\hanwei\\Documents\\Github\\backendcloud.github.io\\i18n\\zh-Hans\\docusaurus-plugin-content-docs\\current",
+          "docs": [
+            {
+              "unversionedId": "cloud-native/client-go/client-go-01",
+              "id": "cloud-native/client-go/client-go-01",
+              "title": "client-go 源码分析（1） - discovery模块：discoveryclient获取所有的gv和gvr",
+              "description": "本篇是client-go源码分析的第一篇，client-go是从事Kubernetes开发必研究的项目，client-go之所以重要，主要在以下几个方面：",
+              "source": "@site/docs/cloud-native/client-go/client-go-01.md",
+              "sourceDirName": "cloud-native/client-go",
+              "slug": "/cloud-native/client-go/client-go-01",
+              "permalink": "/docs/cloud-native/client-go/client-go-01",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-01.md",
+              "tags": [
+                {
+                  "label": "client-go",
+                  "permalink": "/docs/tags/client-go"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "title": "client-go 源码分析（1） - discovery模块：discoveryclient获取所有的gv和gvr",
+                "readmore": false,
+                "date": "2022-11-24T12:21:32.000Z",
+                "categories": "云原生",
+                "tags": [
+                  "client-go"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "client-go",
+                "permalink": "/docs/category/client-go"
+              },
+              "next": {
+                "title": "client-go 源码分析（2） - discovery模块：discovery cache",
+                "permalink": "/docs/cloud-native/client-go/client-go-02"
+              }
+            },
+            {
+              "unversionedId": "cloud-native/client-go/client-go-02",
+              "id": "cloud-native/client-go/client-go-02",
+              "title": "client-go 源码分析（2） - discovery模块：discovery cache",
+              "description": "DiscoveryClient可以将资源相关信息存储于本地，默认存储位置为～/.kube/cache和～/.kube/http-cache。缓存可以减轻client-go对KubernetesAPI Server的访问压力。默认每10分钟与Kubernetes API Server同步一次，同步周期较长，因为资源组、源版本、资源信息一般很少变动。DiscoveryClient第一次获取资源组、资源版本、资源信息时，首先会查询本地缓存，如果数据不存在（没有命中）则请求Kubernetes API Server接口（回源），Cache将Kubernetes API Server响应的数据存储在本地一份并返回给DiscoveryClient。当下一次DiscoveryClient再次获取资源信息时，会将数据直接从本地缓存返回（命中）给DiscoveryClient。本地缓存的默认存储周期为10分钟（对应CachedDiscoveryClient 结构体的ttl属性，超时时间）。代码示例如下：",
+              "source": "@site/docs/cloud-native/client-go/client-go-02.md",
+              "sourceDirName": "cloud-native/client-go",
+              "slug": "/cloud-native/client-go/client-go-02",
+              "permalink": "/docs/cloud-native/client-go/client-go-02",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-02.md",
+              "tags": [
+                {
+                  "label": "client-go",
+                  "permalink": "/docs/tags/client-go"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "title": "client-go 源码分析（2） - discovery模块：discovery cache",
+                "readmore": true,
+                "date": "2022-11-25T10:06:45.000Z",
+                "categories": "云原生",
+                "tags": [
+                  "client-go"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "client-go 源码分析（1） - discovery模块：discoveryclient获取所有的gv和gvr",
+                "permalink": "/docs/cloud-native/client-go/client-go-01"
+              },
+              "next": {
+                "title": "client-go 源码分析（3） - rest模块",
+                "permalink": "/docs/cloud-native/client-go/client-go-03"
+              }
+            },
+            {
+              "unversionedId": "cloud-native/client-go/client-go-03",
+              "id": "cloud-native/client-go/client-go-03",
+              "title": "client-go 源码分析（3） - rest模块",
+              "description": "client-go的客户端对象有4个，作用各有不同：",
+              "source": "@site/docs/cloud-native/client-go/client-go-03.md",
+              "sourceDirName": "cloud-native/client-go",
+              "slug": "/cloud-native/client-go/client-go-03",
+              "permalink": "/docs/cloud-native/client-go/client-go-03",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-03.md",
+              "tags": [
+                {
+                  "label": "client-go",
+                  "permalink": "/docs/tags/client-go"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "title": "client-go 源码分析（3） - rest模块",
+                "readmore": true,
+                "date": "2022-11-25T18:40:38.000Z",
+                "categories": "云原生",
+                "tags": [
+                  "client-go"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "client-go 源码分析（2） - discovery模块：discovery cache",
+                "permalink": "/docs/cloud-native/client-go/client-go-02"
+              },
+              "next": {
+                "title": "client-go 源码分析（4） - ClientSet客户端 和 DynamicClient客户端",
+                "permalink": "/docs/cloud-native/client-go/client-go-04"
+              }
+            },
+            {
+              "unversionedId": "cloud-native/client-go/client-go-04",
+              "id": "cloud-native/client-go/client-go-04",
+              "title": "client-go 源码分析（4） - ClientSet客户端 和 DynamicClient客户端",
+              "description": "本篇的主题是客户端ClientSet。ClientSet和DynamicClient的优缺点正好互换。ClientSet只能操作内置的资源对象，DynamicClient不仅可以操作内置的资源对象，也可以操作CRD；ClientSet有类型检查，DynamicClient没有。",
+              "source": "@site/docs/cloud-native/client-go/client-go-04.md",
+              "sourceDirName": "cloud-native/client-go",
+              "slug": "/cloud-native/client-go/client-go-04",
+              "permalink": "/docs/cloud-native/client-go/client-go-04",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-04.md",
+              "tags": [
+                {
+                  "label": "client-go",
+                  "permalink": "/docs/tags/client-go"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "title": "client-go 源码分析（4） - ClientSet客户端 和 DynamicClient客户端",
+                "readmore": true,
+                "date": "2022-11-25T20:24:49.000Z",
+                "categories": "云原生",
+                "tags": [
+                  "client-go"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "client-go 源码分析（3） - rest模块",
+                "permalink": "/docs/cloud-native/client-go/client-go-03"
+              },
+              "next": {
+                "title": "client-go 源码分析（5） - informer机制中的本地存储indexer",
+                "permalink": "/docs/cloud-native/client-go/client-go-05"
+              }
+            },
+            {
+              "unversionedId": "cloud-native/client-go/client-go-05",
+              "id": "cloud-native/client-go/client-go-05",
+              "title": "client-go 源码分析（5） - informer机制中的本地存储indexer",
+              "description": "informer机制中的本地存储（local cache），对应的结构体是下面的cache struct。",
+              "source": "@site/docs/cloud-native/client-go/client-go-05.md",
+              "sourceDirName": "cloud-native/client-go",
+              "slug": "/cloud-native/client-go/client-go-05",
+              "permalink": "/docs/cloud-native/client-go/client-go-05",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-05.md",
+              "tags": [
+                {
+                  "label": "client-go",
+                  "permalink": "/docs/tags/client-go"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "title": "client-go 源码分析（5） - informer机制中的本地存储indexer",
+                "readmore": true,
+                "date": "2022-12-05T18:16:20.000Z",
+                "categories": "云原生",
+                "tags": [
+                  "client-go"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "client-go 源码分析（4） - ClientSet客户端 和 DynamicClient客户端",
+                "permalink": "/docs/cloud-native/client-go/client-go-04"
+              },
+              "next": {
+                "title": "client-go 源码分析（6） - DeltaFIFO",
+                "permalink": "/docs/cloud-native/client-go/client-go-06"
+              }
+            },
+            {
+              "unversionedId": "cloud-native/client-go/client-go-06",
+              "id": "cloud-native/client-go/client-go-06",
+              "title": "client-go 源码分析（6） - DeltaFIFO",
+              "description": "DeltaFIFO也包含在 Informer 中。DeltaFIFO 是 Delta + FIFO（先进先出队列），Delta的数据格式如下。DeltaType是String的类型，只有四种，分别是增加，更新，删除，同步。作为FIFO，有push和pop方法。",
+              "source": "@site/docs/cloud-native/client-go/client-go-06.md",
+              "sourceDirName": "cloud-native/client-go",
+              "slug": "/cloud-native/client-go/client-go-06",
+              "permalink": "/docs/cloud-native/client-go/client-go-06",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-06.md",
+              "tags": [
+                {
+                  "label": "client-go",
+                  "permalink": "/docs/tags/client-go"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "title": "client-go 源码分析（6） - DeltaFIFO",
+                "readmore": true,
+                "date": "2022-12-06T15:23:04.000Z",
+                "categories": "云原生",
+                "tags": [
+                  "client-go"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "client-go 源码分析（5） - informer机制中的本地存储indexer",
+                "permalink": "/docs/cloud-native/client-go/client-go-05"
+              },
+              "next": {
+                "title": "client-go 源码分析（7） - workerqueue之普通队列Queue",
+                "permalink": "/docs/cloud-native/client-go/client-go-07"
+              }
+            },
+            {
+              "unversionedId": "cloud-native/client-go/client-go-07",
+              "id": "cloud-native/client-go/client-go-07",
+              "title": "client-go 源码分析（7） - workerqueue之普通队列Queue",
+              "description": "client-go 的 util/workqueue 包里主要有三个队列，分别是普通队列Queue，延时队列DelayingQueue，限速队列RateLimitingQueue，后一个队列以前一个队列的实现为基础，层层添加新功能。",
+              "source": "@site/docs/cloud-native/client-go/client-go-07.md",
+              "sourceDirName": "cloud-native/client-go",
+              "slug": "/cloud-native/client-go/client-go-07",
+              "permalink": "/docs/cloud-native/client-go/client-go-07",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-07.md",
+              "tags": [
+                {
+                  "label": "client-go",
+                  "permalink": "/docs/tags/client-go"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "title": "client-go 源码分析（7） - workerqueue之普通队列Queue",
+                "readmore": true,
+                "date": "2022-12-14T12:35:57.000Z",
+                "categories": "云原生",
+                "tags": [
+                  "client-go"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "client-go 源码分析（6） - DeltaFIFO",
+                "permalink": "/docs/cloud-native/client-go/client-go-06"
+              },
+              "next": {
+                "title": "client-go 源码分析（8） - workerqueue之延时队列DelayingQueue",
+                "permalink": "/docs/cloud-native/client-go/client-go-08"
+              }
+            },
+            {
+              "unversionedId": "cloud-native/client-go/client-go-08",
+              "id": "cloud-native/client-go/client-go-08",
+              "title": "client-go 源码分析（8） - workerqueue之延时队列DelayingQueue",
+              "description": "延时队列DelayingQueue，从下面的接口可以看出添加的元素，有一个延迟时间，延时时间到了之后才能加入队列。",
+              "source": "@site/docs/cloud-native/client-go/client-go-08.md",
+              "sourceDirName": "cloud-native/client-go",
+              "slug": "/cloud-native/client-go/client-go-08",
+              "permalink": "/docs/cloud-native/client-go/client-go-08",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-08.md",
+              "tags": [
+                {
+                  "label": "client-go",
+                  "permalink": "/docs/tags/client-go"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "title": "client-go 源码分析（8） - workerqueue之延时队列DelayingQueue",
+                "readmore": false,
+                "date": "2022-12-14T12:59:07.000Z",
+                "categories": "云原生",
+                "tags": [
+                  "client-go"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "client-go 源码分析（7） - workerqueue之普通队列Queue",
+                "permalink": "/docs/cloud-native/client-go/client-go-07"
+              },
+              "next": {
+                "title": "client-go 源码分析（9） - workerqueue之限速队列RateLimitingQueue",
+                "permalink": "/docs/cloud-native/client-go/client-go-09"
+              }
+            },
+            {
+              "unversionedId": "cloud-native/client-go/client-go-09",
+              "id": "cloud-native/client-go/client-go-09",
+              "title": "client-go 源码分析（9） - workerqueue之限速队列RateLimitingQueue",
+              "description": "workerqueue的限速队列RateLimitingQueue搞明白三件事就可以了。",
+              "source": "@site/docs/cloud-native/client-go/client-go-09.md",
+              "sourceDirName": "cloud-native/client-go",
+              "slug": "/cloud-native/client-go/client-go-09",
+              "permalink": "/docs/cloud-native/client-go/client-go-09",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-09.md",
+              "tags": [
+                {
+                  "label": "client-go",
+                  "permalink": "/docs/tags/client-go"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "title": "client-go 源码分析（9） - workerqueue之限速队列RateLimitingQueue",
+                "readmore": true,
+                "date": "2022-12-15T12:10:13.000Z",
+                "categories": "云原生",
+                "tags": [
+                  "client-go"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "client-go 源码分析（8） - workerqueue之延时队列DelayingQueue",
+                "permalink": "/docs/cloud-native/client-go/client-go-08"
+              },
+              "next": {
+                "title": "client-go 源码分析（10） - 使用client-go实现一个简单controller的例子",
+                "permalink": "/docs/cloud-native/client-go/client-go-10"
+              }
+            },
+            {
+              "unversionedId": "cloud-native/client-go/client-go-10",
+              "id": "cloud-native/client-go/client-go-10",
+              "title": "client-go 源码分析（10） - 使用client-go实现一个简单controller的例子",
+              "description": "下面的example也是client-go官方的例子。通过这个简单的例子正好把之前的源码分析的一个个模块都串起来了。",
+              "source": "@site/docs/cloud-native/client-go/client-go-10.md",
+              "sourceDirName": "cloud-native/client-go",
+              "slug": "/cloud-native/client-go/client-go-10",
+              "permalink": "/docs/cloud-native/client-go/client-go-10",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-10.md",
+              "tags": [
+                {
+                  "label": "client-go",
+                  "permalink": "/docs/tags/client-go"
+                }
+              ],
+              "version": "current",
+              "frontMatter": {
+                "title": "client-go 源码分析（10） - 使用client-go实现一个简单controller的例子",
+                "readmore": true,
+                "date": "2022-12-16T12:38:33.000Z",
+                "categories": "云原生",
+                "tags": [
+                  "client-go"
+                ]
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "client-go 源码分析（9） - workerqueue之限速队列RateLimitingQueue",
+                "permalink": "/docs/cloud-native/client-go/client-go-09"
+              },
+              "next": {
+                "title": "通用人工智能",
+                "permalink": "/docs/category/通用人工智能"
+              }
+            },
+            {
+              "unversionedId": "general-ai/gpt4-for-free",
+              "id": "general-ai/gpt4-for-free",
+              "title": "如何免费试用GPT4",
+              "description": "前天OpenAI正式发布了GPT4，先问问AI：",
+              "source": "@site/docs/general-ai/gpt4-for-free.md",
+              "sourceDirName": "general-ai",
+              "slug": "/general-ai/gpt4-for-free",
+              "permalink": "/docs/general-ai/gpt4-for-free",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/general-ai/gpt4-for-free.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 11,
+              "frontMatter": {
+                "sidebar_position": 11
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GPT4在各种专业和学术基准上表现出全面超越人类水平的表现",
+                "permalink": "/docs/general-ai/gpt4-release"
+              },
+              "next": {
+                "title": "GPT-4的早期实验，通用人工智能的火花",
+                "permalink": "/docs/general-ai/gpt4-microsoft"
+              }
+            },
+            {
+              "unversionedId": "general-ai/gpt4-microsoft",
+              "id": "general-ai/gpt4-microsoft",
+              "title": "GPT-4的早期实验，通用人工智能的火花",
+              "description": "最近，微软发布了一个长达154页的论文名称为《通用人工智能的火花，GPT-4的早期实验》。",
+              "source": "@site/docs/general-ai/gpt4-microsoft.md",
+              "sourceDirName": "general-ai",
+              "slug": "/general-ai/gpt4-microsoft",
+              "permalink": "/docs/general-ai/gpt4-microsoft",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/general-ai/gpt4-microsoft.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 12,
+              "frontMatter": {
+                "sidebar_position": 12
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "如何免费试用GPT4",
+                "permalink": "/docs/general-ai/gpt4-for-free"
+              },
+              "next": {
+                "title": "用Stable Diffusion画美女",
+                "permalink": "/docs/general-ai/Stable-Diffusion"
+              }
+            },
+            {
+              "unversionedId": "general-ai/gpt4-release",
+              "id": "general-ai/gpt4-release",
+              "title": "GPT4在各种专业和学术基准上表现出全面超越人类水平的表现",
+              "description": "昨天OpenAI发布GPT4，相较于GPT3.5，GPT4的能力提升，官方给的回答是：在随意的谈话中，GPT-3.5 和 GPT-4 之间的区别可能很微妙。当任务的复杂性达到足够的阈值时，差异就会出现 GPT-4 比 GPT-3.5 更可靠、更有创意，并且能够处理更细微的指令。",
+              "source": "@site/docs/general-ai/gpt4-release.md",
+              "sourceDirName": "general-ai",
+              "slug": "/general-ai/gpt4-release",
+              "permalink": "/docs/general-ai/gpt4-release",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/general-ai/gpt4-release.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "通用人工智能",
+                "permalink": "/docs/category/通用人工智能"
+              },
+              "next": {
+                "title": "如何免费试用GPT4",
+                "permalink": "/docs/general-ai/gpt4-for-free"
+              }
+            },
+            {
+              "unversionedId": "general-ai/poem2picture",
+              "id": "general-ai/poem2picture",
+              "title": "自动化 浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+              "description": "本篇是自动化之前的一篇文章 {% post_link poetry %}",
+              "source": "@site/docs/general-ai/poem2picture.md",
+              "sourceDirName": "general-ai",
+              "slug": "/general-ai/poem2picture",
+              "permalink": "/docs/general-ai/poem2picture",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/general-ai/poem2picture.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 15,
+              "frontMatter": {
+                "sidebar_position": 15
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+                "permalink": "/docs/general-ai/poetry"
+              }
+            },
+            {
+              "unversionedId": "general-ai/poetry",
+              "id": "general-ai/poetry",
+              "title": "浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+              "description": "人类：",
+              "source": "@site/docs/general-ai/poetry.md",
+              "sourceDirName": "general-ai",
+              "slug": "/general-ai/poetry",
+              "permalink": "/docs/general-ai/poetry",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/general-ai/poetry.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 14,
+              "frontMatter": {
+                "sidebar_position": 14
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "用Stable Diffusion画美女",
+                "permalink": "/docs/general-ai/Stable-Diffusion"
+              },
+              "next": {
+                "title": "自动化 浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+                "permalink": "/docs/general-ai/poem2picture"
+              }
+            },
+            {
+              "unversionedId": "general-ai/Stable-Diffusion",
+              "id": "general-ai/Stable-Diffusion",
+              "title": "用Stable Diffusion画美女",
+              "description": "Stable Diffusion是一个基于Latent Diffusion Models（潜在扩散模型，LDMs）的文图生成（text-to-image）模型。它是由CompVis、Stability AI和LAION共同开发的一个文本转图像模型，可以将文本描述转换为图像。",
+              "source": "@site/docs/general-ai/Stable-Diffusion.md",
+              "sourceDirName": "general-ai",
+              "slug": "/general-ai/Stable-Diffusion",
+              "permalink": "/docs/general-ai/Stable-Diffusion",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/general-ai/Stable-Diffusion.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 13,
+              "frontMatter": {
+                "sidebar_position": 13
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "GPT-4的早期实验，通用人工智能的火花",
+                "permalink": "/docs/general-ai/gpt4-microsoft"
+              },
+              "next": {
+                "title": "浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+                "permalink": "/docs/general-ai/poetry"
+              }
+            },
+            {
+              "unversionedId": "intro",
+              "id": "intro",
+              "title": "intro",
+              "description": "过往原创博客文章，即2023年04月17日之前的原创博文的结构化知识整理。这个时间点之后再发原创文章可能大多就不以博客的形式发出了，而是以知识整理的形式发出放在知识库里。这样的好处是，知识整理的形式更加结构化，更加便于读者学习和检索，更加便于分享。",
+              "source": "@site/docs/intro.md",
+              "sourceDirName": ".",
+              "slug": "/intro",
+              "permalink": "/docs/intro",
+              "draft": false,
+              "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "云原生",
+                "permalink": "/docs/category/云原生"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "doc",
+                "id": "intro"
+              },
+              {
+                "type": "category",
+                "label": "云原生",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "client-go",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "cloud-native/client-go/client-go-01"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "cloud-native/client-go/client-go-02"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "cloud-native/client-go/client-go-03"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "cloud-native/client-go/client-go-04"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "cloud-native/client-go/client-go-05"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "cloud-native/client-go/client-go-06"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "cloud-native/client-go/client-go-07"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "cloud-native/client-go/client-go-08"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "cloud-native/client-go/client-go-09"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "cloud-native/client-go/client-go-10"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "client-go源码分析",
+                      "slug": "/category/client-go",
+                      "permalink": "/docs/category/client-go"
+                    }
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "title": "云原生",
+                  "description": "云原生",
+                  "slug": "/category/云原生",
+                  "permalink": "/docs/category/云原生"
+                }
+              },
+              {
+                "type": "category",
+                "label": "通用人工智能",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "general-ai/gpt4-release"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "general-ai/gpt4-for-free"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "general-ai/gpt4-microsoft"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "general-ai/Stable-Diffusion"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "general-ai/poetry"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "general-ai/poem2picture"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "title": "通用人工智能",
+                  "description": "通用人工智能，以及借助通用人工智能技术，一切皆可自动化。",
+                  "slug": "/category/通用人工智能",
+                  "permalink": "/docs/category/通用人工智能"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "全部博文",
+      "blogPosts": [
+        {
+          "id": "voice-assistant",
+          "metadata": {
+            "permalink": "/blog/voice-assistant",
+            "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-25-voice-assistant.md",
+            "source": "@site/blog/2023-04-25-voice-assistant.md",
+            "title": "发布一个开源小项目 - 语音助手",
+            "description": "实现的功能：语音助手。通过调用OpenAI官方API实现。",
+            "date": "2023-04-25T00:00:00.000Z",
+            "formattedDate": "2023年4月25日",
+            "tags": [
+              {
+                "label": "通用人工智能",
+                "permalink": "/blog/tags/通用人工智能"
+              }
+            ],
+            "readingTime": 1.285,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "backendcloud",
+                "title": "后端云",
+                "url": "https://www.backendcloud.cn",
+                "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+                "key": "backendcloud"
+              }
+            ],
+            "frontMatter": {
+              "slug": "voice-assistant",
+              "title": "发布一个开源小项目 - 语音助手",
+              "authors": [
+                "backendcloud"
+              ],
+              "tags": [
+                "通用人工智能"
+              ]
+            },
+            "nextItem": {
+              "title": "发布一个开源小项目 - Hugging Push",
+              "permalink": "/blog/Hugging-Push"
+            }
+          },
+          "content": "实现的功能：语音助手。通过调用OpenAI官方API实现。\r\n\r\n在线demo： https://huggingface.co/spaces/AutoGeneralAI/voice-assistant\r\n\r\n代码仓库： https://github.com/AutoGeneralAI/voice-assistant\r\n\r\n## 使用方法\r\n\r\n将自己的OpenAI API KEY https://platform.openai.com/ 放入key输入框，然后就可以愉快的语音对话了。\r\n\r\n> 初次使用，浏览器，比如Chrome会询问是否允许打开麦克风，选择允许。\r\n\r\n> 可以保存对话记录。目前只实现了对话。人类的角色可以语音，AI角色还是以文字输出。文字朗读出来的功能留待下次实现或者欢迎提pr。\r\n\r\n![](https://user-images.githubusercontent.com/105260427/234028574-eeb218f9-363a-4fee-88bf-8170b677e2e1.png)\r\n\r\n**input:**\r\n\r\n点击开始录音，然后说话，说完点击停止录音，点击发送按钮，然后AI会回复。再次录制语音，AI会继续回复。（再次录制语音，要点击叉按钮后才可以录下一条语音）\r\n\r\n**output:**\r\n\r\n```txt\r\nuser: How to be a qualified programmer?\r\n\r\nassistant: Get an education, learn different programming languages, build projects, and practice coding regularly. Also, stay up-to-date with industry trends and technology advancements.\r\n\r\nuser: 你好,你会说中文吗?\r\n\r\nassistant: 是的，我能说中文。\r\n```"
+        },
+        {
+          "id": "Hugging-Push",
+          "metadata": {
+            "permalink": "/blog/Hugging-Push",
+            "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-24-Hugging-Push.md",
+            "source": "@site/blog/2023-04-24-Hugging-Push.md",
+            "title": "发布一个开源小项目 - Hugging Push",
+            "description": "Hugging Push的Github市场的URL： https://github.com/marketplace/actions/hugging-push",
+            "date": "2023-04-24T00:00:00.000Z",
+            "formattedDate": "2023年4月24日",
+            "tags": [
+              {
+                "label": "CICD",
+                "permalink": "/blog/tags/cicd"
+              }
+            ],
+            "readingTime": 2.565,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "backendcloud",
+                "title": "后端云",
+                "url": "https://www.backendcloud.cn",
+                "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+                "key": "backendcloud"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Hugging-Push",
+              "title": "发布一个开源小项目 - Hugging Push",
+              "authors": [
+                "backendcloud"
+              ],
+              "tags": [
+                "CICD"
+              ]
+            },
+            "prevItem": {
+              "title": "发布一个开源小项目 - 语音助手",
+              "permalink": "/blog/voice-assistant"
+            },
+            "nextItem": {
+              "title": "发布一个开源小项目 - GUI版的ChatGPT API",
+              "permalink": "/blog/GUI-ChatGPT"
+            }
+          },
+          "content": "Hugging Push的Github市场的URL： https://github.com/marketplace/actions/hugging-push\r\n\r\nHugging Push项目的代码仓库： https://github.com/backendcloud/hugging-push\r\n\r\n或者直接在Github市场搜索项目名称 Hugging Push\r\n\r\n![](https://cdn.jsdelivr.net/gh/filess/img11@main/2023/04/24/1682337591710-bd51f152-164f-480b-9165-d39cd1d66a44.png)\r\n\r\n![](https://cdn.jsdelivr.net/gh/filess/img19@main/2023/04/24/1682337613153-9ec1a337-4dfa-4d96-9be5-dd71a650cd06.png)\r\n\r\n![](https://cdn.jsdelivr.net/gh/filess/img4@main/2023/04/24/1682337591712-4b9ad01c-5580-4e37-b925-4f6dae6b90d2.png)\r\n\r\n\r\n## 需求背景\r\n\r\n做通用人工智能相关的项目的开发，往往需要用到hugging face，hugging face为人工智能项目提供免费的2核cpu算力，收费的GPU算力和更多核的CPU算力。需要将项目代码放到hugging face的代码仓库，才能在hugging face平台编译运行。但一般代码都是习惯于托管在Github上，所以需要一个CICD工作流，同步两边的代码仓库。\r\n\r\n## Hugging Push实现的功能\r\n\r\nHugging Push 这个GitHub action 完成的事情是将Action所执行的github的代码仓库同步到hugging face space 的代码仓库。不需要手工同步，只要维护好Github一份代码仓库即可。\r\n\r\n\r\n\r\n## 使用方法\r\n\r\n首先用自己的账户登陆并在Hugging Face的后台管理界面创建一个token，赋予有可写的权限并将其作为GitHub Secret。\r\n\r\n```yaml\r\nname: Deploy to huggingface\r\n\r\non:\r\n  push:\r\n    branches: [main]\r\n\r\njobs:\r\n  deploy:\r\n    runs-on: ubuntu-latest\r\n    steps:\r\n      - uses: backendcloud/hugging-push@v0.2.3\r\n        with:\r\n          # The Hugging Face repo id you want to sync to.\r\n          # A repo with this name will be created if it doesn't exist. Required.\r\n          # The github username is not included. ex: not like this 'username/reponame', but like this: 'reponame'\r\n          # the key of huggingface_repo can be omitted. If the key is commented out, it defaults to the same name as the Github repository. \r\n          # huggingface_repo: 'ChatGPT'\r\n\r\n          # Hugging Face token with write access. Required.\r\n          # Here, we provide a token that we called `HF_TOKEN` when we added the secret to our GitHub repo.\r\n          hf_token: ${{ secrets.HF_TOKEN }}\r\n\r\n          # The type of repo you are syncing to: model, dataset, or space.\r\n          # Defaults to space.\r\n          repo_type: 'space'\r\n  \r\n          # If true and the Hugging Face repo doesn't already exist, it will be created\r\n          # as a private repo.\r\n          #\r\n          # Note: this param has no effect if the repo already exists.\r\n          private: false\r\n\r\n          # If repo type is space, specify a space_sdk. One of: streamlit, gradio, or static\r\n          #\r\n          # This option is especially important if the repo has not been created yet.\r\n          # It won't really be used if the repo already exists.\r\n          space_sdk: 'gradio'\r\n```\r\n\r\n> `- uses: actions/checkout@v2`这个对仓库的checkout的action不需要，因为这个步骤已经包含在Action: backendcloud/hugging-push 当中。"
+        },
+        {
+          "id": "GUI-ChatGPT",
+          "metadata": {
+            "permalink": "/blog/GUI-ChatGPT",
+            "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-23-GUI-ChatGPT.md",
+            "source": "@site/blog/2023-04-23-GUI-ChatGPT.md",
+            "title": "发布一个开源小项目 - GUI版的ChatGPT API",
+            "description": "代码放在： https://github.com/AutoGeneralAI/ChatGPT/",
+            "date": "2023-04-23T00:00:00.000Z",
+            "formattedDate": "2023年4月23日",
+            "tags": [
+              {
+                "label": "通用人工智能",
+                "permalink": "/blog/tags/通用人工智能"
+              }
+            ],
+            "readingTime": 1.61,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "backendcloud",
+                "title": "后端云",
+                "url": "https://www.backendcloud.cn",
+                "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+                "key": "backendcloud"
+              }
+            ],
+            "frontMatter": {
+              "slug": "GUI-ChatGPT",
+              "title": "发布一个开源小项目 - GUI版的ChatGPT API",
+              "authors": [
+                "backendcloud"
+              ],
+              "tags": [
+                "通用人工智能"
+              ]
+            },
+            "prevItem": {
+              "title": "发布一个开源小项目 - Hugging Push",
+              "permalink": "/blog/Hugging-Push"
+            },
+            "nextItem": {
+              "title": "免费使用ChatGPT的有力竞品Claude，Claude用起来太顺畅了",
+              "permalink": "/blog/claude"
+            }
+          },
+          "content": "代码放在： https://github.com/AutoGeneralAI/ChatGPT/\r\n\r\n在线体验： https://huggingface.co/spaces/AutoGeneralAI/ChatGPT\r\n\r\n> 本项目不是web版的ChatGPT，而是调用ChatGPT(OpenAI)官方API的GUI for ChatGPT API。\r\n\r\n## 背景\r\n自从ChatGPT开放了官方API后，调用API的产品层出不穷，各种软件，各种Chrome插件，各种IDE插件，各种网站，各种小程序，各种APP，各种聊天机器人。\r\n\r\n于是自己也开发了些调用ChatGPT API的小项目，比如：\r\n* https://github.com/AutoGeneralAI/gpt-pdf\r\n* https://github.com/AutoGeneralAI/poem2picture\r\n\r\n但这些项目都是命令行的，不够直观和界面友好，于是就想做一个GUI版的ChatGPT API，于是就有了这个项目。\r\n\r\n可以在线体验 https://huggingface.co/spaces/AutoGeneralAI/ChatGPT\r\n\r\n\r\n## 使用方法\r\n将自己的OpenAI API KEY 获取地址： https://platform.openai.com/\r\n放入界面的`key`输入框，然后就可以愉快的使用ChatGPT，愉快的和ChatGPT对话了。\r\n\r\n> 放心，这个项目不会上传你的API KEY到任何地方，因为这个项目是完全开源的。\r\n\r\n在线体验的界面如下：\r\n\r\n![](https://user-images.githubusercontent.com/130114082/233837074-a260c2ff-4d93-4efd-ad3f-b97da7db82e7.png)\r\n\r\n## 代码\r\n\r\n代码很简单，就是两个简单的函数，一个调用的openai官方库，一个调用了Gradio前端框架。\r\n\r\n```python\r\ndef openai_chat(prompt):\r\n    completions = openai.Completion.create(\r\n        engine=\"text-davinci-003\",\r\n        prompt=prompt,\r\n        max_tokens=1024,\r\n        n=1,\r\n        temperature=0.5,\r\n    )\r\n```\r\n\r\n```python\r\ndef chatbot(key, input, history=[]):\r\n    openai.api_key = key\r\n    output = openai_chat(input)\r\n    history.append((input, output))\r\n    return history, history\r\n\r\ngr.Interface(fn = chatbot,\r\n             inputs = [\"text\",\"text\",'state'],\r\n             outputs = [\"chatbot\",'state']).launch(debug = True)\r\n```"
+        },
+        {
+          "id": "claude",
+          "metadata": {
+            "permalink": "/blog/claude",
+            "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-21-claude.md",
+            "source": "@site/blog/2023-04-21-claude.md",
+            "title": "免费使用ChatGPT的有力竞品Claude，Claude用起来太顺畅了",
+            "description": "ChatGPT的免费的Web版吐字太慢了，还常常中断，忍无可忍。虽说API调用吐字很快，很顺畅，不会中断，但毕竟是收费的，虽然费用很低。大约500个字人民币一分钱，且OpenAI还会给每个账户送18美元的API体验。但是API终究还是要收费的。",
+            "date": "2023-04-21T00:00:00.000Z",
+            "formattedDate": "2023年4月21日",
+            "tags": [
+              {
+                "label": "通用人工智能",
+                "permalink": "/blog/tags/通用人工智能"
+              }
+            ],
+            "readingTime": 1.485,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "backendcloud",
+                "title": "后端云",
+                "url": "https://www.backendcloud.cn",
+                "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+                "key": "backendcloud"
+              }
+            ],
+            "frontMatter": {
+              "slug": "claude",
+              "title": "免费使用ChatGPT的有力竞品Claude，Claude用起来太顺畅了",
+              "authors": [
+                "backendcloud"
+              ],
+              "tags": [
+                "通用人工智能"
+              ]
+            },
+            "prevItem": {
+              "title": "发布一个开源小项目 - GUI版的ChatGPT API",
+              "permalink": "/blog/GUI-ChatGPT"
+            },
+            "nextItem": {
+              "title": "自我prompt，自主完成任务的Auto-GPT，一种应用AI的新思路",
+              "permalink": "/blog/Auto-GPT"
+            }
+          },
+          "content": "ChatGPT的免费的Web版吐字太慢了，还常常中断，忍无可忍。虽说API调用吐字很快，很顺畅，不会中断，但毕竟是收费的，虽然费用很低。大约500个字人民币一分钱，且OpenAI还会给每个账户送18美元的API体验。但是API终究还是要收费的。\r\n\r\n于是，我又找到了ChatGPT一个免费的有力竞品：Claude。Claude用起来太顺畅了，且最近很火，口碑也很好。\r\n\r\n下面介绍如何使用Claude，使用Claude比注册ChatGPT要简单得多。两种方式都可以使用Claude，一种是直接使用官方途径，另一种是在第三方平台上使用。\r\n\r\n## 官方Slack\r\n\r\nClaude的官方Slack地址是：https://slack.com/apps/A04KGS7N9A8-claude\r\n\r\n或者搜索引擎搜`slack claude`，第一个就是官方Slack。加入slack后，可以直接使用Claude。\r\n\r\n![](2023-04-21-claude/2023-04-21-15-39-05.png)\r\n\r\n## 第三方平台Poe\r\n\r\nPoe是一个集成了包括Claude的很多AI的平台。登陆 [Poe官网](https://poe.com/)\r\n\r\n![](2023-04-21-claude/2023-04-21-15-40-42.png)\r\n\r\n> 上面介绍的两种使用Claude的方式，不仅远远快过Web版的ChatGPT，也远快过API调用的ChatGPT。而且，Claude的输出内容质量也很高。"
+        },
+        {
+          "id": "Auto-GPT",
+          "metadata": {
+            "permalink": "/blog/Auto-GPT",
+            "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-20-Auto-GPT.md",
+            "source": "@site/blog/2023-04-20-Auto-GPT.md",
+            "title": "自我prompt，自主完成任务的Auto-GPT，一种应用AI的新思路",
+            "description": "Auto-GPT源码： https://github.com/Significant-Gravitas/Auto-GPT",
+            "date": "2023-04-20T00:00:00.000Z",
+            "formattedDate": "2023年4月20日",
+            "tags": [
+              {
+                "label": "通用人工智能",
+                "permalink": "/blog/tags/通用人工智能"
+              }
+            ],
+            "readingTime": 24.195,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "backendcloud",
+                "title": "后端云",
+                "url": "https://www.backendcloud.cn",
+                "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+                "key": "backendcloud"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Auto-GPT",
+              "title": "自我prompt，自主完成任务的Auto-GPT，一种应用AI的新思路",
+              "authors": [
+                "backendcloud"
+              ],
+              "tags": [
+                "通用人工智能"
+              ]
+            },
+            "prevItem": {
+              "title": "免费使用ChatGPT的有力竞品Claude，Claude用起来太顺畅了",
+              "permalink": "/blog/claude"
+            },
+            "nextItem": {
+              "title": "介绍两个好玩的AI开源项目：MiniGPT-4和AnimatedDrawings",
+              "permalink": "/blog/MiniGPT-4"
+            }
+          },
+          "content": "Auto-GPT源码： https://github.com/Significant-Gravitas/Auto-GPT\r\n\r\n体验可以使用第三方产品，免费在线体验： https://agentgpt.reworkd.ai/\r\n\r\n也可以自己在本地体验。本篇都是介绍如何在本地体验以及一个本地测试例子，例子选取的太简单了，好像没有发挥好Auto-GPT的优势。只是为了跑通流程，体验下Auto-GPT。\r\n\r\n## 安装\r\n\r\n安装非常简单，只需要需要以下几个步骤：\r\n1. [安装python3.10](https://www.python.org/downloads/release/python-31011/)\r\n2. [安装git](https://git-scm.com/downloads)\r\n3. 代码仓库拉取到本地 `git clone https://github.com/Significant-Gravitas/Auto-GPT`\r\n4. 进入项目目录，执行 `pip install -r requirements.txt`\r\n5. 复制项目中的`.env.template`，命名为`.env`，并修改其中的3个参数`OPENAI_API_KEY` `PINECONE_API_KEY` `PINECONE_ENV`，改成自己的。若没有，可去对应[ChatGPT官网](https://chat.openai.com/)和[Pinecone官网](https://www.pinecone.io/)注册下，后台管理界面获取。\r\n6. 运行Auto-GPT `python -m autogpt --gpt3only`\r\n\r\n## 例子\r\n\r\n### Auto-GPT运行日志\r\n\r\n问Auto-GPT一个问题，`娃在幼儿园被老师批评了，作为家长应如何应对。`。在和Auto-GPT的交互中。要交互的是`AI Name:`随便写写，`Describe your AI's role:`随便写写，关键是目标，最多可以有5个，这里就写了一个`Goal 1: write an article about : children are commented by the Kindergarten teacher, how to enlighten the children`\r\n\r\n```txt\r\nPS C:\\Users\\hanwei\\Documents\\Github\\Auto-GPT> python -m autogpt --gpt3only\r\nGPT3.5 Only Mode:  ENABLED\r\nWelcome to Auto-GPT!  Enter the name of your AI and its role below. Entering nothing will load defaults.\r\nName your AI:  For example, 'Entrepreneur-GPT'\r\nAI Name: writer\r\nwriter here!  I am at your service.\r\nDescribe your AI's role:  For example, 'an AI designed to autonomously develop and run businesses with the sole goal of increasing your net worth.'\r\nwriter is: who can write an article\r\nEnter up to 5 goals for your AI:  For example: Increase net worth, Grow Twitter Account, Develop and manage multiple businesses autonomously'\r\nEnter nothing to load defaults, enter nothing when finished.\r\nGoal 1: write an article about : children are commented by the Kindergarten teacher, how to enlighten the children\r\n```\r\n\r\n通过下面的日志，可以看到每个具体的命令以及Auto-GPT的处理过程。比ChatGPT多了网上的搜索过程，网上搜索信息，阅读提取要点，整理新的文章。整个过程是自动化的，只需要输入一个目标，Auto-GPT就会自动完成和AI的多次交互，以目标为导向（最多可以给Auto-GPT设定5个目标），并自我prompt，自主完成任务。\r\n\r\n\r\n```txt\r\nWelcome to Auto-GPT!  Enter the name of your AI and its role below. Entering nothing will load defaults.\r\nName your AI:  For example, 'Entrepreneur-GPT'\r\nwriter here! I am at your service.\r\nDescribe your AI's role:  For example, 'an AI designed to autonomously develop and run businesses with the sole goal of increasing your net worth.'\r\nEnter up to 5 goals for your AI:  For example: \r\nter Account, Develop and manage multiple businesses autonomously'\r\nUsing memory of type: LocalCache\r\nUsing Browser: chrome\r\n THOUGHTS: I think I need to gather some information on how to enlighten kindergarten children. I will start by doing a Google search.\r\nREASONING: I need to gather information to write an article on how to enlighten kindergarten children. A Google search is a good starting point to gather information.\r\nPLAN: \r\n-  Do a Google search on how to enlighten kindergarten children\r\n-  Read through the search results and gather information\r\n-  Write an article based on the gathered information\r\nCRITICISM: I need to ensure that the information I gather is reliable and relevant to the topic at hand.\r\nSPEAK: I will start by doing a Google search on how to enlighten kindergarten children.\r\nAttempting to fix JSON by finding outermost brackets\r\n\r\nApparently json was fixed. \r\nNEXT ACTION:  COMMAND = google  ARGUMENTS = {'input': 'how to enlighten kindergarten children'}\r\nGPT3.5 Only Mode:  ENABLED\r\nWelcome back!  Would you like me to return to being writer?\r\nWelcome to Auto-GPT!  Enter the name of your AI and its role below. Entering nothing will load defaults.\r\nName your AI:  For example, 'Entrepreneur-GPT'\r\nwriter here! I am at your service.\r\nDescribe your AI's role:  For example, 'an AI designed to autonomously develop and run businesses with the sole goal of increasing your net worth.'\r\nEnter up to 5 goals for your AI:  For example: \r\nIncrease net worth, Grow Twitter Account, Develop and manage multiple businesses autonomously'\r\nUsing memory of type: LocalCache\r\nUsing Browser: chrome\r\n THOUGHTS: I think I need to do some research on how to enlighten children who are being commented on by their kindergarten teacher. I will use the 'google' command to search for relevant information.\r\nREASONING: I need to gather information to write an informative article on how to enlighten children who are being commented on by their kindergarten teacher. Researching will help me gather relevant information to include in the article.\r\nPLAN: \r\n-  Use the 'google' command to search for relevant information on how to enlighten children who are being commented on by their kindergarten teacher.\r\n-  Read through the information gathered and take notes on important points to include in the article.\r\nCRITICISM: I need to ensure that the information I gather is from credible sources and that I take the time to read through it carefully to ensure that I include only relevant and accurate information in the article.\r\nSPEAK: I will use the 'google' command to search for information on how to enlighten children who are being commented on by their kindergarten teacher.\r\nAttempting to fix JSON by finding outermost brackets\r\n\r\nApparently json was fixed. \r\nNEXT ACTION:  COMMAND = google  ARGUMENTS = {'input': 'how to enlighten children who are being commented on by their kindergarten teacher'}\r\n-=-=-=-=-=-=-= COMMAND AUTHORISED BY USER -=-=-=-=-=-=-= \r\nSYSTEM:  Command google returned: b'[\\n    {\\n        \"title\": \"What Does A Kindergarten Teacher Do? - Western Governors University\",\\n        \"href\": \"https://www.wgu.edu/career-guide/education/kindergarten-teacher-career.html\",\\n        \"body\": \"Kindergarten teachers are tasked with helping their students learn the basics of schooling and preparing them for first grade. While no two days are ever the same, kindergarten teachers are generally expected to: Prepare materials, lessons, and projects. Keep lessons fresh, engaging, and interesting. Teach basic skills in academics and behavior.\"\\n    },\\n    {\\n        \"title\": \"Report Card Comments & Phrases for Kindergarten - TeacherVision\",\\n        \"href\": \"https://www.teachervision.com/report-cards-advice-suggested-comments/report-card-comments-for-kindergarten\",\\n        \"body\": \"This list of 32 ready-to-use report card comments covers academics, personality and attitude, work habits, and social skills for kindergarten report cards, and provides both examples of positive feedback for students and suggestions for improvement. Help make the kindergarten grading and evaluation process easier with this selection of editable ...\"\\n    },\\n    {\\n        \"title\": \"What does a kindergarten teacher do? - CareerExplorer\",\\n        \"href\": \"https://www.careerexplorer.com/careers/kindergarten-teacher/\",\\n        \"body\": \"A kindergarten teacher is responsible for planning the curriculum for each day and for the collective school year. They allow the children to observe an activity while also giving them the opportunity to ask questions and look for the answers. Instructions need to be very precise, yet easy to understand. By using hands-on lessons and creative ...\"\\n    },\\n    {\\n        \"title\": \"The Truth About Teaching Kindergarten from a Kindergarten Teacher\",\\n        \"href\": \"https://thekindergartenconnection.com/the-truth-about-teaching-kindergarten/\",\\n        \"body\": \"Let\\'s talk social skills. Kindergarten is a HUGE year for learning social skills. Things such as taking turns, conversations with peers, how to handle when you don\\'t get your way, managing emotions. Those things are taught and fostered each day in Kindergarten and do not just \\\\\"happen.\\\\\". They also aren\\'t easy to teach.\"\\n    },\\n    {\\n        \"title\": \"What Does a Kindergarten Teacher Do? (Duties and Salary)\",\\n        \"href\": \"https://www.indeed.com/career-advice/careers/what-does-a-kindergarten-teacher-do\",\\n        \"body\": \"Kindergarten teachers also use their classes to prepare their students for the world by teaching basic academic and social skills. Here are a few of the most common daily job duties for a kindergarten teacher: Teach their children the basics of reading, writing and arithmetic. Help children learn interpersonal skills.\"\\n    },\\n    {\\n        \"title\": \"What Are Some Positive Things About Being a Kindergarten Teacher? - Chron\",\\n        \"href\": \"https://work.chron.com/positive-things-being-kindergarten-teacher-27037.html\",\\n        \"body\": \"Kindergarten teachers build strong educational foundations for young minds, which is personally rewarding. They get to witness children blossom into well-rounded students hungry to learn. Kindergarten teachers also regularly get opportunities to talk to their pupils\\' parents via parent-teacher meetings. This affords them the chance to learn ...\"\\n    },\\n    {\\n        \"title\": \"The 10 Traits Successful Kids Have In Common, From A Kindergarten Teacher\",\\n        \"href\": \"https://www.huffpost.com/entry/kindergarten-readiness-successful-kids-have-these_b_586bfc49e4b04d7df167d7c6\",\\n        \"body\": \"Children who are accustomed to listening to books being read from start to finish and participating in conversations about the book are well prepared for Kindergarten. Parents can support the development of this skill by incorporating reading aloud into their regular routine.\"\\n    },\\n    {\\n        \"title\": \"Kindergarten Teachers Speak Out for Children\\'s Happiness\",\\n        \"href\": \"https://www.psychologytoday.com/us/blog/freedom-learn/201911/kindergarten-teachers-speak-out-children-s-happiness\",\\n        \"body\": \"The research is clear. Academic training in kindergarten has no long-term benefit. In fact, it may cause long-term harm. It does not reduce the education gap between the rich and the poor, which ...\"\\n    }\\n]'\r\n THOUGHTS: I need to read through the search results and gather relevant information on how to enlighten children who are being commented on by their kindergarten teacher. I will use the 'read_file' command to save the search results to a file for easy access and reference.\r\nREASONING: Reading through the search results will help me gather relevant information to include in the article. Saving the search results to a file will make it easier for me to access and reference the information as I write the article.\r\nPLAN: \r\n-  Use the 'read_file' command to save the search results to a file.\\n- Read through the search results and take notes on important points to include in the article.\r\nCRITICISM: I need to ensure that I take the time to read through the search results carefully to ensure that I include only relevant and accurate information in the article.\r\nSPEAK: I will use the 'read_file' command to save the search results to a file and then read through them to gather relevant information on how to enlighten children who are being commented on by their kindergarten teacher.\r\nAttempting to fix JSON by finding outermost brackets\r\n \r\nApparently json was fixed. \r\nNEXT ACTION:  COMMAND = read_file  ARGUMENTS = {'file': 'search_results.txt'}\r\nSYSTEM:  Command read_file returned: Error: [Errno 2] No such file or directory: 'C:\\\\Users\\\\hanwei\\\\Documents\\\\Github\\\\Auto-GPT\\\\auto_gpt_workspace\\\\search_results.txt'\r\n THOUGHTS: I need to create a new file to save the search results to. I will use the 'write_to_file' command to create a new file and save the search results to it.\r\nREASONING: Creating a new file will allow me to save the search results for easy access and reference as I write the article. The 'write_to_file' command will allow me to create a new file and save the search results to it.\r\nPLAN: \r\n-  Use the 'write_to_file' command to create a new file and save the search results to it.\\n- Read through the search results and take notes on important points to include in the article.\r\nCRITICISM: I need to ensure that I take the time to read through the search results carefully to ensure that I include only relevant and accurate information in the article.\r\nSPEAK: I will use the 'write_to_file' command to create a new file and save the search results to it, and then read through them to gather relevant information on how to enlighten children who are being commented on by their kindergarten teacher.\r\nAttempting to fix JSON by finding outermost brackets\r\n\r\nApparently json was fixed. \r\nNEXT ACTION:  COMMAND = write_to_file  ARGUMENTS = {'file': 'search_results.txt', 'text': 'Kindergarten teachers are tasked with helping their students learn the basics of schooling and preparing them for first grade. While no two days are ever the same, kindergarten teachers are generally expected to: Prepare materials, lessons, and projects. Keep lessons fresh, engaging, and interesting. Teach basic skills in academics and behavior. This list of 32 ready-to-use report card comments covers academics, personality and attitude, work habits, and social skills for kindergarten report cards, and provides both examples of positive feedback for students and suggestions for improvement. Help make the kindergarten grading and evaluation process easier with this selection of editable ...'}\r\nSYSTEM:  Command write_to_file returned: File written to successfully.\r\n THOUGHTS: Now that I have saved the search results to a file, I need to read through them and take notes on important points to include in the article. I will use the 'read_file' command to read the search results from the file.\r\nREASONING: Reading through the search results will help me gather relevant information to include in the article. Using the 'read_file' command will allow me to easily access the search results that I saved to the file.\r\nPLAN: \r\n-  Use the 'read_file' command to read the search results from the file.\\n- Take notes on important points to include in the article.\r\nCRITICISM: I need to ensure that I take the time to read through the search results carefully to ensure that I include only relevant and accurate information in the article.\r\nSPEAK: I will use the 'read_file' command to read the search results from the file and take notes on important points to include in the article.\r\nAttempting to fix JSON by finding outermost brackets\r\n \r\nApparently json was fixed. \r\nNEXT ACTION:  COMMAND = read_file  ARGUMENTS = {'file': 'search_results.txt'}\r\nSYSTEM:  Command read_file returned: Kindergarten teachers are tasked with helping their students learn the basics of schooling and preparing them for first grade. While no two days are ever the same, kindergarten teachers are generally expected to: Prepare materials, lessons, and projects. Keep lessons fresh, engaging, and interesting. Teach basic skills in academics and behavior. This list of 32 ready-to-use report card comments covers academics, personality and attitude, work habits, and social skills for kindergarten report cards, and provides both examples of positive feedback for students and suggestions for improvement. Help make the kindergarten grading and evaluation process easier with this selection of editable ...\r\n THOUGHTS: I have read through the search results and taken notes on important points to include in the article. Now, I need to start writing the article. I will use the 'start_agent' command to start a GPT agent to help me generate ideas for the article.\r\nREASONING: Starting a GPT agent will allow me to generate ideas for the article and help me overcome writer's block. The 'start_agent' command will allow me to start a GPT agent and provide it with a task and prompt to generate ideas for the article.\r\nPLAN: \r\n-  Use the 'start_agent' command to start a GPT agent and provide it with a task and prompt to generate ideas for the article.\\n- Use the ideas generated by the GPT agent to write the article.\r\nCRITICISM: I need to ensure that I use the ideas generated by the GPT agent as a starting point and not rely solely on them to write the article. I also need to ensure that the ideas generated by the GPT agent are relevant and accurate.\r\nSPEAK: I will use the 'start_agent' command to start a GPT agent and provide it with a task and prompt to generate ideas for the article, and then use the ideas generated by the GPT agent as a starting point to write the article.\r\nAttempting to fix JSON by finding outermost brackets\r\n\r\nApparently json was fixed. \r\nNEXT ACTION:  COMMAND = start_agent  ARGUMENTS = {'name': 'article_ideas', 'task': 'Generate ideas for an article on how to enlighten children who are being commented on by their kindergarten teacher.', 'prompt': 'What are some effective strategies for enlightening children who are being commented on by their kindergarten teacher?'}\r\n-=-=-=-=-=-=-= COMMAND AUTHORISED BY USER -=-=-=-=-=-=-= \r\nSYSTEM:  Command start_agent returned: Agent article_ideas created with key 0. First response: As an AI language model, I do not encourage or condone any form of commenting on children by their teachers. However, if a child is being commented on by their kindergarten teacher, some effective strategies for enlightening the child could include:\r\n\r\n1. Encouraging open communication: Encourage the child to talk about their experiences in school and listen to them without judgment.\r\n\r\n2. Building self-esteem: Help the child build their self-esteem by praising their strengths and encouraging them to try new things.\r\n\r\n3. Providing positive reinforcement: Reward the child for good behavior and positive actions to reinforce positive behavior.\r\n\r\n4. Encouraging socialization: Encourage the child to socialize with other children to build their social skills and confidence.\r\n\r\n5. Seeking professional help: If the child is struggling with emotional or behavioral issues, seek professional help from a counselor or therapist.\r\n\r\nIt is important to remember that every child is unique and may require different strategies to help them cope with comments from their teacher.\r\n THOUGHTS: The GPT agent has provided some useful ideas for the article. Now, I need to use these ideas to write the article. I will use the 'write_to_file' command to write the article to a file.\r\nREASONING: Using the 'write_to_file' command will allow me to write the article to a file and save it for future reference. This will also allow me to easily edit and revise the article as needed.\r\nPLAN: \r\n-  Use the ideas generated by the GPT agent to write the article.\\n- Use the 'write_to_file' command to write the article to a file and save it for future reference.\\n- Review and revise the article as needed.\r\nCRITICISM: I need to ensure that the article is well-written and provides useful information for readers. I also need to ensure that the article is free of errors and is easy to read and understand.\r\nSPEAK: I will use the 'write_to_file' command to write the article to a file and save it for future reference, and then review and revise the article as needed to ensure that it is well-written and provides useful information for readers.\r\nAttempting to fix JSON by finding outermost brackets\r\n\r\nApparently json was fixed. \r\nNEXT ACTION:  COMMAND = write_to_file  ARGUMENTS = {'file': 'enlightening_children.txt', 'text': \"Strategies for Enlightening Children Who Are Being Commented on by Their Kindergarten Teacher\\n\\nIf a child is being commented on by their kindergarten teacher, it can be a difficult and stressful experience for both the child and their parents. However, there are some effective strategies that can be used to help enlighten the child and improve their overall well-being.\\n\\n1. Encouraging open communication: Encourage the child to talk about their experiences in school and listen to them without judgment. This can help the child feel heard and validated, and can also help parents and teachers better understand the child's perspective.\\n\\n2. Building self-esteem: Help the child build their self-esteem by praising their strengths and encouraging them to try new things. This can help the child feel more confident and capable, and can also help them develop a positive self-image.\\n\\n3. Providing positive reinforcement: Reward the child for good behavior and positive actions to reinforce positive behavior. This can help the child feel valued and appreciated, and can also help them develop a sense of responsibility and accountability.\\n\\n4. Encouraging socialization: Encourage the child to socialize with other children to build their social skills and confidence. This can help the child develop important social skills, such as communication, cooperation, and empathy, and can also help them feel more connected to their peers.\\n\\n5. Seeking professional help: If the child is struggling with emotional or behavioral issues, seek professional help from a counselor or therapist. This can provide the child with the support and guidance they need to overcome their challenges and develop healthy coping strategies.\\n\\nIt is important to remember that every child is unique and may require different strategies to help them cope with comments from their teacher. However, by using these strategies, parents and teachers can help enlighten the child and improve their overall well-being.\"}\r\nSYSTEM:  Command write_to_file returned: File written to successfully.\r\n```\r\n\r\n### Auto-GPT生成的最终结果\r\n\r\nStrategies for Enlightening Children Who Are Being Commented on by Their Kindergarten Teacher\r\n\r\nIf a child is being commented on by their kindergarten teacher, it can be a difficult and stressful experience for both the child and their parents. However, there are some effective strategies that can be used to help enlighten the child and improve their overall well-being.\r\n\r\n1. Encouraging open communication: Encourage the child to talk about their experiences in school and listen to them without judgment. This can help the child feel heard and validated, and can also help parents and teachers better understand the child's perspective.\r\n\r\n2. Building self-esteem: Help the child build their self-esteem by praising their strengths and encouraging them to try new things. This can help the child feel more confident and capable, and can also help them develop a positive self-image.\r\n\r\n3. Providing positive reinforcement: Reward the child for good behavior and positive actions to reinforce positive behavior. This can help the child feel valued and appreciated, and can also help them develop a sense of responsibility and accountability.\r\n\r\n4. Encouraging socialization: Encourage the child to socialize with other children to build their social skills and confidence. This can help the child develop important social skills, such as communication, cooperation, and empathy, and can also help them feel more connected to their peers.\r\n\r\n5. Seeking professional help: If the child is struggling with emotional or behavioral issues, seek professional help from a counselor or therapist. This can provide the child with the support and guidance they need to overcome their challenges and develop healthy coping strategies.\r\n\r\nIt is important to remember that every child is unique and may require different strategies to help them cope with comments from their teacher. However, by using these strategies, parents and teachers can help enlighten the child and improve their overall well-being.\r\n\r\n### 对比ChatGPT生成的结果\r\n\r\nChatGPT生成的结果如下：\r\n\r\n人类：\r\nKindergarten children were commented by teachers, how to console them?\r\n\r\nChatGPT:\r\nIf a kindergarten child is commented by a teacher, the parents can comfort and encourage the child by listening to their feelings, encouraging them to express themselves, and affirming their efforts. Moreover, parents can also talk to the teacher about the specific reasons for the comment and work with them to help the child improve in areas that need development. In addition, parents can provide positive feedback and reinforcement for the child's achievements to boost their self-esteem and confidence.\r\n\r\n> 可见ChatGPT回答的也不差，对问题的处理，方方面面，多角度都考虑到了，语言简洁。Auto-GPT则生成了一大段文章。实际上是将很多文章拼接和总结要点组成成的结果。也可以改下提示词让ChatGPT就此话题写一篇文章，看看结果如何。\r\n\r\n让ChatGPT以此为话题生成一篇文章：\r\n\r\n人类：\r\nKindergarten children were commented by teachers, how to console them? write an article about it\r\n\r\nChatGPT：\r\nAs parents, it can be tough to see our little ones feeling upset or hurt by something that has been said to them, especially when it comes from someone they should be able to trust and look up to - like a teacher. This is why learning how to console them is so important.\r\n\r\nIf your child has been commented on by their teacher, the first thing to do is listen to their feelings. Ask them how it made them feel, and really listen to their response. Reassure them that you understand their feelings, and let them know that it's okay to feel upset or frustrated about the situation.\r\n\r\nLetting your child express themselves is another important part of consoling them. Encourage them to share their thoughts and feelings about what has happened with you, and let them know that their thoughts and feelings are valid. This will help your child feel heard and understood, which can go a long way in helping them process what has happened.\r\n\r\nIt's important to affirm your child's efforts, as well. Let them know that you are proud of them for trying their best, and that their efforts are appreciated. This can help to build their confidence and self-esteem, and can make them feel more secure in their abilities.\r\n\r\nIn addition to consoling your child, it may also be helpful to speak with their teacher about the situation. Ask the teacher for feedback on how your child has been doing in class, and ask what specific areas they may need help with. Work together with the teacher to create a plan for how to help your child improve in areas that need development.\r\n\r\nFinally, it's important to remember that every child is unique and may require different strategies to help them cope with comments from their teacher. However, by using these strategies, parents can help enlighten the child and improve their overall well-being. By listening, affirming, and encouraging them, parents can help their child process their emotions and move toward a positive resolution.\r\n\r\n**以下是上面ChatGPT回答的翻译结果：**\r\n\r\n作为家长，当我们看到孩子因为被某人（如老师）说了一些伤害性的话而感到不安或受伤时，会感到很困难。因此，学习如何安慰他们非常重要。\r\n\r\n如果您的孩子受到老师的评论，首先要做的是听取他们的感受。询问他们感觉如何，并认真聆听他们的回答。向他们保证了解他们的感受，并让他们知道感到不安或沮丧是没关系的。\r\n\r\n让孩子表达自己的想法和感受也是安慰他们的重要方法之一。鼓励他们与您分享对所发生事情的想法和感受，并让他们知道他们的想法和感受是有价值的。这将帮助孩子感到被听到和理解，从而更好地处理所发生的事情。\r\n\r\n肯定孩子的努力也很重要。让他们知道你为他们尽力而为感到骄傲，并且感激他们的努力。这有助于提高孩子的自信心和自尊心，并使他们对自己的能力更加自信。\r\n\r\n除了安慰孩子之外，与老师交谈也可能会有所帮助。询问老师对孩子的表现有何反馈，并询问是否需要帮助。与老师共同制定帮助孩子在需要发展的领域取得进步的计划。\r\n\r\n最后，重要的是要记住，每个孩子都是独特的，可能需要不同的策略来帮助他们应对老师的评论。然而，通过使用这些策略，父母可以帮助孩子处理情绪，并向积极的结果迈进。通过聆听、肯定和鼓励他们，家长可以帮助孩子处理情绪，走向积极的解决方法。\r\n\r\n> Auto-GPT是以目标为导向，多次和AI交互并搜索互联网上的内容，提取整合后输出结果。ChatGPT是直接根据提示词输出结果，给的结果也不差，只要给ChatGPT足够好的提示词，就能出符合要求的内容。这个例子选取的太简单了，好像没有发挥好Auto-GPT的优势。"
+        },
+        {
+          "id": "MiniGPT-4",
+          "metadata": {
+            "permalink": "/blog/MiniGPT-4",
+            "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-19-MiniGPT-4.md",
+            "source": "@site/blog/2023-04-19-MiniGPT-4.md",
+            "title": "介绍两个好玩的AI开源项目：MiniGPT-4和AnimatedDrawings",
+            "description": "MiniGPT-4",
+            "date": "2023-04-19T00:00:00.000Z",
+            "formattedDate": "2023年4月19日",
+            "tags": [
+              {
+                "label": "通用人工智能",
+                "permalink": "/blog/tags/通用人工智能"
+              }
+            ],
+            "readingTime": 3.765,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "backendcloud",
+                "title": "后端云",
+                "url": "https://www.backendcloud.cn",
+                "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+                "key": "backendcloud"
+              }
+            ],
+            "frontMatter": {
+              "slug": "MiniGPT-4",
+              "title": "介绍两个好玩的AI开源项目：MiniGPT-4和AnimatedDrawings",
+              "authors": [
+                "backendcloud"
+              ],
+              "tags": [
+                "通用人工智能"
+              ]
+            },
+            "prevItem": {
+              "title": "自我prompt，自主完成任务的Auto-GPT，一种应用AI的新思路",
+              "permalink": "/blog/Auto-GPT"
+            },
+            "nextItem": {
+              "title": "发布一个开源小工具 Hexo2DocusaurusBlog",
+              "permalink": "/blog/Hexo2DocusaurusBlog"
+            }
+          },
+          "content": "## MiniGPT-4\r\n\r\nMiniGPT-4支持图片输入，对图片做做描述。MiniGPT-4是一个具有图像理解能力的开源聊天机器人，基于+Vicuna-13B+LLM+和+BLIP-2视觉语言模型。\r\n\r\n\r\n最近很火爆的ChatGPT以及期背后的GPT3.5 GPT4，其中GPT4虽说支持多模态，但是多模态至今日（2023年04月19日）一直没有开放，小规模公测都没开放。所以，我们可以先用MiniGPT-4来玩玩。\r\n\r\n官网给了火烈鸟的例子：\r\n\r\n![](2023-04-19-MiniGPT-4/2023-04-19-17-32-03.png)\r\n\r\n这个Logo设计简单而不失时尚感，以粉色线条勾勒出一只单脚站在水中的火烈鸟形象。整个设计干净简洁，易于辨识，适用于多种场合，比如用于海滨度假村的Logo或者是火烈鸟主题活动的标志。以火烈鸟作为象征，增加了一份趣味和活泼感，让整体设计更加富有记忆性和吸引力。总的来说，这是一个设计良好的Logo，能够有效地传达品牌的信息。\r\n\r\n> 笔者觉得大多数人类也做不到这种水准的对图片的描述。\r\n\r\n开源代码放在 https://github.com/Vision-CAIR/MiniGPT-4\r\n\r\n可以去官网在线体验 MiniGPT-4的官网 https://minigpt-4.github.io/\r\n\r\n> 笔者体验了下，确实可以输入图片，然后生成描述。但是，现在用的人太多，排队太长了，每个问题都要排队很长时间，要点耐心。\r\n\r\n## AnimatedDrawings\r\n\r\nAnimated Drawings 是一个可以将绘画作品转换成动画的项目，这个项目旨在成为一个有用的创造性工具，允许你灵活地创造动画，让你自己画的人物成为主角。\r\n\r\n在线体验官网 https://sketch.metademolab.com/canvas\r\n\r\n开源代码放在  https://github.com/facebookresearch/AnimatedDrawings\r\n\r\n这不是新出的项目，几年前就开放在线体验了。只是最近各种人工智能项目很火且都有开源趋势，该项目最近才开放了源代码。\r\n\r\n> 笔者体验了下，确实可以将绘画作品转换成动画。分别用了demo的图片和自己画了个图片，都可以，但是在线体验的只有固定的几套动作。如果想要更多的动作，以及更多的场景背景，可以自己安装在本地，然后就可以随意创作了。有了AI的帮助，将来动画创作就更加容易了。\r\n\r\n## X Studio 3\r\n\r\n介绍的第三个项目 X Studio 3 虽不是开源的，但是，是一款AI辅助歌曲创作软件。最近AI绘图工具很火很多，比如 Dall-E 2，midjourney，Stable Diffusion等等，但是AI音乐制作工具比较少见，所以特别介绍一下，有音乐基础的读者可以玩一玩。\r\n\r\nX Studio 3 是一款国产的是一款专业的虚拟歌手软件，这款软件能够帮助用户轻松进行各种歌曲的创作，能够提升大家的音乐制作体验，降低音乐创作的门槛。\r\n\r\n官方下载地址 https://singer.xiaoice.com/"
+        },
+        {
+          "id": "Hexo2DocusaurusBlog",
+          "metadata": {
+            "permalink": "/blog/Hexo2DocusaurusBlog",
+            "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-18-Hexo2DocusaurusBlog.md",
+            "source": "@site/blog/2023-04-18-Hexo2DocusaurusBlog.md",
+            "title": "发布一个开源小工具 Hexo2DocusaurusBlog",
+            "description": "源码放在： https://github.com/backendcloud/Hexo2DocusaurusBlog",
+            "date": "2023-04-18T00:00:00.000Z",
+            "formattedDate": "2023年4月18日",
+            "tags": [
+              {
+                "label": "后端云发布的开源小项目",
+                "permalink": "/blog/tags/后端云发布的开源小项目"
+              }
+            ],
+            "readingTime": 2.1,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "backendcloud",
+                "title": "后端云",
+                "url": "https://www.backendcloud.cn",
+                "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+                "key": "backendcloud"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Hexo2DocusaurusBlog",
+              "title": "发布一个开源小工具 Hexo2DocusaurusBlog",
+              "authors": [
+                "backendcloud"
+              ],
+              "tags": [
+                "后端云发布的开源小项目"
+              ]
+            },
+            "prevItem": {
+              "title": "介绍两个好玩的AI开源项目：MiniGPT-4和AnimatedDrawings",
+              "permalink": "/blog/MiniGPT-4"
+            },
+            "nextItem": {
+              "title": "网站准备从Hexo迁移到Docusaurus",
+              "permalink": "/blog/Hexo2Docusaurus"
+            }
+          },
+          "content": "> 源码放在： https://github.com/backendcloud/Hexo2DocusaurusBlog\r\n\r\n> 发布的可执行文件放在： https://github.com/backendcloud/Hexo2DocusaurusBlog/releases\r\n\r\n## 需求背景\r\n\r\n网站准备从Hexo迁移到Docusaurus了。但是原来Hexo的博客不能直接迁移到Docusaurus，需要做一些转换。这类博文有286篇，若量不多可以手工处理下，但是量大的话，就需要写个工具来处理了。\r\n\r\n本着不重复造轮子的原则，先去Github上搜了下，相关的项目只有2个，一个golang写的工具，一个ruby写的工具，star数都为0。看了下代码，发现无法使用，无法使用的原因是作者是根据自己博客代码项目的结构写的转换工具，和我的不一样，比如其中一个作者是将自己的Obsidian笔记用在了hexo上，后来再次转换为Docusaurus博客。格式，目录结构差异较大，没法直接用。我的是按照官方文档推荐的目录结构，文件命名方式，内容结构。别人现成的工具无法直接拿来用。于是重新开发了个工具。\r\n\r\n\r\n## 简介\r\n\r\n此工具用于将 Hexo 博客转换为 Docusaurus 博客。\r\n\r\n## 用法\r\n\r\n```bash\r\nHexo2DocusaurusBlog.exe -h\r\n  -author string\r\n        blog author name\r\n  -docusaurus string\r\n        docusaurus blog directory\r\n  -dry-run\r\n        perform a trial run with no changes made\r\n  -hexo string\r\n        hexo blog directory\r\n```\r\n\r\n## 例子\r\n\r\n\r\nHexo 博客的markdown文件位于: input/hexo-blog-for-test.md:\r\n\r\n```bash\r\nHexo2DocusaurusBlog.exe -hexo ./input -docusaurus ./output -author backendcloud -dry-run\r\nINFO: Convert Hexo Blog [hexo-blog-for-test] to Docusaurus Blogs Success!\r\nINFO: [DRY-RUN] Write Docusaurus Blog [hexo-blog-for-test] Success!\r\n```\r\n\r\n> -dry-run : perform a trial run with no changes made\r\n\r\n\r\n\r\n```bash\r\nHexo2DocusaurusBlog.exe -hexo ./input -docusaurus ./output -author backendcloud\r\nINFO: Convert Hexo Blog [hexo-blog-for-test] to Docusaurus Blogs Success!\r\nINFO: Write Docusaurus Blog [hexo-blog-for-test] Success!\r\n```\r\n\r\n执行工具，转换后的 Docusaurus 博客的markdown文件位于: output/2023-04-17-hexo-blog-for-test.md"
+        },
+        {
+          "id": "Hexo2Docusaurus",
+          "metadata": {
+            "permalink": "/blog/Hexo2Docusaurus",
+            "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-17-Hexo2Docusaurus.md",
+            "source": "@site/blog/2023-04-17-Hexo2Docusaurus.md",
+            "title": "网站准备从Hexo迁移到Docusaurus",
+            "description": "网站准备从Hexo迁移到Docusaurus了。原因如下：",
+            "date": "2023-04-17T00:00:00.000Z",
+            "formattedDate": "2023年4月17日",
+            "tags": [
+              {
+                "label": "Hexo",
+                "permalink": "/blog/tags/hexo"
+              },
+              {
+                "label": "Docusaurus",
+                "permalink": "/blog/tags/docusaurus"
+              }
+            ],
+            "readingTime": 0.815,
+            "hasTruncateMarker": false,
+            "authors": [
+              {
+                "name": "backendcloud",
+                "title": "后端云",
+                "url": "https://www.backendcloud.cn",
+                "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+                "key": "backendcloud"
+              }
+            ],
+            "frontMatter": {
+              "slug": "Hexo2Docusaurus",
+              "title": "网站准备从Hexo迁移到Docusaurus",
+              "authors": [
+                "backendcloud"
+              ],
+              "tags": [
+                "Hexo",
+                "Docusaurus"
+              ]
+            },
+            "prevItem": {
+              "title": "发布一个开源小工具 Hexo2DocusaurusBlog",
+              "permalink": "/blog/Hexo2DocusaurusBlog"
+            }
+          },
+          "content": "网站准备从Hexo迁移到Docusaurus了。原因如下：\r\n* Docusaurus在建站领域有着很好的口碑和热度，而且它的文档也很好，融合markdown和react，js，ts等语言，可以很方便地进行二次开发。\r\n* Docusaurus社区比较活跃。\r\n* Docusaurus比Hexo更适合做技术文档类网站。因为Docusaurus有结构化知识库的功能，而Hexo没有。且Docusaurus带有blog的功能。\r\n* Docusaurus相比Hexo更像一个网站，便于营销。\r\n* Docusaurus对Github Actions的支持更好，可以自动化部署。Docusaurus对Github Pages的支持也更好，可以自动化部署到Github Pages。\r\n* Docusaurus支持多语种。"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "voice-assistant",
+            "Hugging-Push",
+            "GUI-ChatGPT",
+            "claude",
+            "Auto-GPT",
+            "MiniGPT-4",
+            "Hexo2DocusaurusBlog",
+            "Hexo2Docusaurus"
+          ],
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 8,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/通用人工智能": {
+          "label": "通用人工智能",
+          "items": [
+            "voice-assistant",
+            "GUI-ChatGPT",
+            "claude",
+            "Auto-GPT",
+            "MiniGPT-4"
+          ],
+          "permalink": "/blog/tags/通用人工智能",
+          "pages": [
+            {
+              "items": [
+                "voice-assistant",
+                "GUI-ChatGPT",
+                "claude",
+                "Auto-GPT",
+                "MiniGPT-4"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/通用人工智能",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 5,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/cicd": {
+          "label": "CICD",
+          "items": [
+            "Hugging-Push"
+          ],
+          "permalink": "/blog/tags/cicd",
+          "pages": [
+            {
+              "items": [
+                "Hugging-Push"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/cicd",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/后端云发布的开源小项目": {
+          "label": "后端云发布的开源小项目",
+          "items": [
+            "Hexo2DocusaurusBlog"
+          ],
+          "permalink": "/blog/tags/后端云发布的开源小项目",
+          "pages": [
+            {
+              "items": [
+                "Hexo2DocusaurusBlog"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/后端云发布的开源小项目",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/hexo": {
+          "label": "Hexo",
+          "items": [
+            "Hexo2Docusaurus"
+          ],
+          "permalink": "/blog/tags/hexo",
+          "pages": [
+            {
+              "items": [
+                "Hexo2Docusaurus"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hexo",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/docusaurus": {
+          "label": "Docusaurus",
+          "items": [
+            "Hexo2Docusaurus"
+          ],
+          "permalink": "/blog/tags/docusaurus",
+          "pages": [
+            {
+              "items": [
+                "Hexo2Docusaurus"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/docusaurus",
+                "page": 1,
+                "postsPerPage": 10,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "mdx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.mdx",
+        "title": "欢迎光临",
+        "description": "联系方式:",
+        "frontMatter": {
+          "title": "欢迎光临"
+        }
+      },
+      {
+        "type": "mdx",
+        "permalink": "/markdown-page",
+        "source": "@site/src/pages/markdown-page.md",
+        "title": "Markdown page example",
+        "description": "You don't need React to write simple standalone pages.",
+        "frontMatter": {
+          "title": "Markdown page example"
+        }
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

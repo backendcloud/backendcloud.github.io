@@ -1,0 +1,23 @@
+{
+  "unversionedId": "general-ai/poem2picture",
+  "id": "general-ai/poem2picture",
+  "title": "自动化 浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+  "description": "本篇是自动化之前的一篇文章 {% post_link poetry %}",
+  "source": "@site/docs/general-ai/poem2picture.md",
+  "sourceDirName": "general-ai",
+  "slug": "/general-ai/poem2picture",
+  "permalink": "/docs/general-ai/poem2picture",
+  "draft": false,
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/general-ai/poem2picture.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+    "permalink": "/docs/general-ai/poetry"
+  }
+}

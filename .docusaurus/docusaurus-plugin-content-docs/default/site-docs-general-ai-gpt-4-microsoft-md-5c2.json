@@ -1,0 +1,27 @@
+{
+  "unversionedId": "general-ai/gpt4-microsoft",
+  "id": "general-ai/gpt4-microsoft",
+  "title": "GPT-4的早期实验，通用人工智能的火花",
+  "description": "最近，微软发布了一个长达154页的论文名称为《通用人工智能的火花，GPT-4的早期实验》。",
+  "source": "@site/docs/general-ai/gpt4-microsoft.md",
+  "sourceDirName": "general-ai",
+  "slug": "/general-ai/gpt4-microsoft",
+  "permalink": "/docs/general-ai/gpt4-microsoft",
+  "draft": false,
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/general-ai/gpt4-microsoft.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "如何免费试用GPT4",
+    "permalink": "/docs/general-ai/gpt4-for-free"
+  },
+  "next": {
+    "title": "用Stable Diffusion画美女",
+    "permalink": "/docs/general-ai/Stable-Diffusion"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/hugginggpt-paper",
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-26-hugginggpt-paper.md",
+  "source": "@site/blog/2023-04-26-hugginggpt-paper.md",
+  "title": "软微最新的HuggingGPT论文解读",
+  "description": "微软最近发表了一篇有关HuggingGPT的论文。原文地址：HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face。本文是对该论文的解读。",
+  "date": "2023-04-26T00:00:00.000Z",
+  "formattedDate": "2023年4月26日",
+  "tags": [
+    {
+      "label": "通用人工智能",
+      "permalink": "/blog/tags/通用人工智能"
+    }
+  ],
+  "readingTime": 5.915,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "backendcloud",
+      "title": "后端云",
+      "url": "https://www.backendcloud.cn",
+      "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+      "key": "backendcloud"
+    }
+  ],
+  "frontMatter": {
+    "slug": "hugginggpt-paper",
+    "title": "软微最新的HuggingGPT论文解读",
+    "authors": [
+      "backendcloud"
+    ],
+    "tags": [
+      "通用人工智能"
+    ]
+  },
+  "prevItem": {
+    "title": "重温昔日美好瞬间！AI技术帮你修复老旧照片！",
+    "permalink": "/blog/GFPGAN"
+  },
+  "nextItem": {
+    "title": "发布一个开源小项目 - 语音助手",
+    "permalink": "/blog/voice-assistant"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "general-ai/gpt4-for-free",
+  "id": "general-ai/gpt4-for-free",
+  "title": "如何免费试用GPT4",
+  "description": "前天OpenAI正式发布了GPT4，先问问AI：",
+  "source": "@site/docs/general-ai/gpt4-for-free.md",
+  "sourceDirName": "general-ai",
+  "slug": "/general-ai/gpt4-for-free",
+  "permalink": "/docs/general-ai/gpt4-for-free",
+  "draft": false,
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/general-ai/gpt4-for-free.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GPT4在各种专业和学术基准上表现出全面超越人类水平的表现",
+    "permalink": "/docs/general-ai/gpt4-release"
+  },
+  "next": {
+    "title": "GPT-4的早期实验，通用人工智能的火花",
+    "permalink": "/docs/general-ai/gpt4-microsoft"
+  }
+}

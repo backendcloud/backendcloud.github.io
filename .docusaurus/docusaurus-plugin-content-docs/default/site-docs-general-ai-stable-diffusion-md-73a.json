@@ -1,0 +1,27 @@
+{
+  "unversionedId": "general-ai/Stable-Diffusion",
+  "id": "general-ai/Stable-Diffusion",
+  "title": "用Stable Diffusion画美女",
+  "description": "Stable Diffusion是一个基于Latent Diffusion Models（潜在扩散模型，LDMs）的文图生成（text-to-image）模型。它是由CompVis、Stability AI和LAION共同开发的一个文本转图像模型，可以将文本描述转换为图像。",
+  "source": "@site/docs/general-ai/Stable-Diffusion.md",
+  "sourceDirName": "general-ai",
+  "slug": "/general-ai/Stable-Diffusion",
+  "permalink": "/docs/general-ai/Stable-Diffusion",
+  "draft": false,
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/general-ai/Stable-Diffusion.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 13,
+  "frontMatter": {
+    "sidebar_position": 13
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GPT-4的早期实验，通用人工智能的火花",
+    "permalink": "/docs/general-ai/gpt4-microsoft"
+  },
+  "next": {
+    "title": "浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+    "permalink": "/docs/general-ai/poetry"
+  }
+}

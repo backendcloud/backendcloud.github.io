@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/GUI-ChatGPT",
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-23-GUI-ChatGPT.md",
+  "source": "@site/blog/2023-04-23-GUI-ChatGPT.md",
+  "title": "发布一个开源小项目 - GUI版的ChatGPT API",
+  "description": "代码放在： https://github.com/AutoGeneralAI/ChatGPT/",
+  "date": "2023-04-23T00:00:00.000Z",
+  "formattedDate": "2023年4月23日",
+  "tags": [
+    {
+      "label": "通用人工智能",
+      "permalink": "/blog/tags/通用人工智能"
+    }
+  ],
+  "readingTime": 1.61,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "backendcloud",
+      "title": "后端云",
+      "url": "https://www.backendcloud.cn",
+      "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+      "key": "backendcloud"
+    }
+  ],
+  "frontMatter": {
+    "slug": "GUI-ChatGPT",
+    "title": "发布一个开源小项目 - GUI版的ChatGPT API",
+    "authors": [
+      "backendcloud"
+    ],
+    "tags": [
+      "通用人工智能"
+    ]
+  },
+  "prevItem": {
+    "title": "发布一个开源小项目 - Hugging Push",
+    "permalink": "/blog/Hugging-Push"
+  },
+  "nextItem": {
+    "title": "免费使用ChatGPT的有力竞品Claude，Claude用起来太顺畅了",
+    "permalink": "/blog/claude"
+  }
+}

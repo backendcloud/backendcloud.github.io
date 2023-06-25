@@ -1,0 +1,247 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "intro",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "云原生",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "client-go",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "client-go 源码分析（1） - discovery模块：discoveryclient获取所有的gv和gvr",
+                "href": "/docs/cloud-native/client-go/client-go-01",
+                "docId": "cloud-native/client-go/client-go-01"
+              },
+              {
+                "type": "link",
+                "label": "client-go 源码分析（2） - discovery模块：discovery cache",
+                "href": "/docs/cloud-native/client-go/client-go-02",
+                "docId": "cloud-native/client-go/client-go-02"
+              },
+              {
+                "type": "link",
+                "label": "client-go 源码分析（3） - rest模块",
+                "href": "/docs/cloud-native/client-go/client-go-03",
+                "docId": "cloud-native/client-go/client-go-03"
+              },
+              {
+                "type": "link",
+                "label": "client-go 源码分析（4） - ClientSet客户端 和 DynamicClient客户端",
+                "href": "/docs/cloud-native/client-go/client-go-04",
+                "docId": "cloud-native/client-go/client-go-04"
+              },
+              {
+                "type": "link",
+                "label": "client-go 源码分析（5） - informer机制中的本地存储indexer",
+                "href": "/docs/cloud-native/client-go/client-go-05",
+                "docId": "cloud-native/client-go/client-go-05"
+              },
+              {
+                "type": "link",
+                "label": "client-go 源码分析（6） - DeltaFIFO",
+                "href": "/docs/cloud-native/client-go/client-go-06",
+                "docId": "cloud-native/client-go/client-go-06"
+              },
+              {
+                "type": "link",
+                "label": "client-go 源码分析（7） - workerqueue之普通队列Queue",
+                "href": "/docs/cloud-native/client-go/client-go-07",
+                "docId": "cloud-native/client-go/client-go-07"
+              },
+              {
+                "type": "link",
+                "label": "client-go 源码分析（8） - workerqueue之延时队列DelayingQueue",
+                "href": "/docs/cloud-native/client-go/client-go-08",
+                "docId": "cloud-native/client-go/client-go-08"
+              },
+              {
+                "type": "link",
+                "label": "client-go 源码分析（9） - workerqueue之限速队列RateLimitingQueue",
+                "href": "/docs/cloud-native/client-go/client-go-09",
+                "docId": "cloud-native/client-go/client-go-09"
+              },
+              {
+                "type": "link",
+                "label": "client-go 源码分析（10） - 使用client-go实现一个简单controller的例子",
+                "href": "/docs/cloud-native/client-go/client-go-10",
+                "docId": "cloud-native/client-go/client-go-10"
+              }
+            ],
+            "href": "/docs/category/client-go"
+          }
+        ],
+        "href": "/docs/category/云原生"
+      },
+      {
+        "type": "category",
+        "label": "通用人工智能",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "GPT4在各种专业和学术基准上表现出全面超越人类水平的表现",
+            "href": "/docs/general-ai/gpt4-release",
+            "docId": "general-ai/gpt4-release"
+          },
+          {
+            "type": "link",
+            "label": "如何免费试用GPT4",
+            "href": "/docs/general-ai/gpt4-for-free",
+            "docId": "general-ai/gpt4-for-free"
+          },
+          {
+            "type": "link",
+            "label": "GPT-4的早期实验，通用人工智能的火花",
+            "href": "/docs/general-ai/gpt4-microsoft",
+            "docId": "general-ai/gpt4-microsoft"
+          },
+          {
+            "type": "link",
+            "label": "用Stable Diffusion画美女",
+            "href": "/docs/general-ai/Stable-Diffusion",
+            "docId": "general-ai/Stable-Diffusion"
+          },
+          {
+            "type": "link",
+            "label": "浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+            "href": "/docs/general-ai/poetry",
+            "docId": "general-ai/poetry"
+          },
+          {
+            "type": "link",
+            "label": "自动化 浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+            "href": "/docs/general-ai/poem2picture",
+            "docId": "general-ai/poem2picture"
+          }
+        ],
+        "href": "/docs/category/通用人工智能"
+      }
+    ]
+  },
+  "docs": {
+    "cloud-native/client-go/client-go-01": {
+      "id": "cloud-native/client-go/client-go-01",
+      "title": "client-go 源码分析（1） - discovery模块：discoveryclient获取所有的gv和gvr",
+      "description": "本篇是client-go源码分析的第一篇，client-go是从事Kubernetes开发必研究的项目，client-go之所以重要，主要在以下几个方面：",
+      "sidebar": "tutorialSidebar"
+    },
+    "cloud-native/client-go/client-go-02": {
+      "id": "cloud-native/client-go/client-go-02",
+      "title": "client-go 源码分析（2） - discovery模块：discovery cache",
+      "description": "DiscoveryClient可以将资源相关信息存储于本地，默认存储位置为～/.kube/cache和～/.kube/http-cache。缓存可以减轻client-go对KubernetesAPI Server的访问压力。默认每10分钟与Kubernetes API Server同步一次，同步周期较长，因为资源组、源版本、资源信息一般很少变动。DiscoveryClient第一次获取资源组、资源版本、资源信息时，首先会查询本地缓存，如果数据不存在（没有命中）则请求Kubernetes API Server接口（回源），Cache将Kubernetes API Server响应的数据存储在本地一份并返回给DiscoveryClient。当下一次DiscoveryClient再次获取资源信息时，会将数据直接从本地缓存返回（命中）给DiscoveryClient。本地缓存的默认存储周期为10分钟（对应CachedDiscoveryClient 结构体的ttl属性，超时时间）。代码示例如下：",
+      "sidebar": "tutorialSidebar"
+    },
+    "cloud-native/client-go/client-go-03": {
+      "id": "cloud-native/client-go/client-go-03",
+      "title": "client-go 源码分析（3） - rest模块",
+      "description": "client-go的客户端对象有4个，作用各有不同：",
+      "sidebar": "tutorialSidebar"
+    },
+    "cloud-native/client-go/client-go-04": {
+      "id": "cloud-native/client-go/client-go-04",
+      "title": "client-go 源码分析（4） - ClientSet客户端 和 DynamicClient客户端",
+      "description": "本篇的主题是客户端ClientSet。ClientSet和DynamicClient的优缺点正好互换。ClientSet只能操作内置的资源对象，DynamicClient不仅可以操作内置的资源对象，也可以操作CRD；ClientSet有类型检查，DynamicClient没有。",
+      "sidebar": "tutorialSidebar"
+    },
+    "cloud-native/client-go/client-go-05": {
+      "id": "cloud-native/client-go/client-go-05",
+      "title": "client-go 源码分析（5） - informer机制中的本地存储indexer",
+      "description": "informer机制中的本地存储（local cache），对应的结构体是下面的cache struct。",
+      "sidebar": "tutorialSidebar"
+    },
+    "cloud-native/client-go/client-go-06": {
+      "id": "cloud-native/client-go/client-go-06",
+      "title": "client-go 源码分析（6） - DeltaFIFO",
+      "description": "DeltaFIFO也包含在 Informer 中。DeltaFIFO 是 Delta + FIFO（先进先出队列），Delta的数据格式如下。DeltaType是String的类型，只有四种，分别是增加，更新，删除，同步。作为FIFO，有push和pop方法。",
+      "sidebar": "tutorialSidebar"
+    },
+    "cloud-native/client-go/client-go-07": {
+      "id": "cloud-native/client-go/client-go-07",
+      "title": "client-go 源码分析（7） - workerqueue之普通队列Queue",
+      "description": "client-go 的 util/workqueue 包里主要有三个队列，分别是普通队列Queue，延时队列DelayingQueue，限速队列RateLimitingQueue，后一个队列以前一个队列的实现为基础，层层添加新功能。",
+      "sidebar": "tutorialSidebar"
+    },
+    "cloud-native/client-go/client-go-08": {
+      "id": "cloud-native/client-go/client-go-08",
+      "title": "client-go 源码分析（8） - workerqueue之延时队列DelayingQueue",
+      "description": "延时队列DelayingQueue，从下面的接口可以看出添加的元素，有一个延迟时间，延时时间到了之后才能加入队列。",
+      "sidebar": "tutorialSidebar"
+    },
+    "cloud-native/client-go/client-go-09": {
+      "id": "cloud-native/client-go/client-go-09",
+      "title": "client-go 源码分析（9） - workerqueue之限速队列RateLimitingQueue",
+      "description": "workerqueue的限速队列RateLimitingQueue搞明白三件事就可以了。",
+      "sidebar": "tutorialSidebar"
+    },
+    "cloud-native/client-go/client-go-10": {
+      "id": "cloud-native/client-go/client-go-10",
+      "title": "client-go 源码分析（10） - 使用client-go实现一个简单controller的例子",
+      "description": "下面的example也是client-go官方的例子。通过这个简单的例子正好把之前的源码分析的一个个模块都串起来了。",
+      "sidebar": "tutorialSidebar"
+    },
+    "general-ai/gpt4-for-free": {
+      "id": "general-ai/gpt4-for-free",
+      "title": "如何免费试用GPT4",
+      "description": "前天OpenAI正式发布了GPT4，先问问AI：",
+      "sidebar": "tutorialSidebar"
+    },
+    "general-ai/gpt4-microsoft": {
+      "id": "general-ai/gpt4-microsoft",
+      "title": "GPT-4的早期实验，通用人工智能的火花",
+      "description": "最近，微软发布了一个长达154页的论文名称为《通用人工智能的火花，GPT-4的早期实验》。",
+      "sidebar": "tutorialSidebar"
+    },
+    "general-ai/gpt4-release": {
+      "id": "general-ai/gpt4-release",
+      "title": "GPT4在各种专业和学术基准上表现出全面超越人类水平的表现",
+      "description": "昨天OpenAI发布GPT4，相较于GPT3.5，GPT4的能力提升，官方给的回答是：在随意的谈话中，GPT-3.5 和 GPT-4 之间的区别可能很微妙。当任务的复杂性达到足够的阈值时，差异就会出现 GPT-4 比 GPT-3.5 更可靠、更有创意，并且能够处理更细微的指令。",
+      "sidebar": "tutorialSidebar"
+    },
+    "general-ai/poem2picture": {
+      "id": "general-ai/poem2picture",
+      "title": "自动化 浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+      "description": "本篇是自动化之前的一篇文章 {% post_link poetry %}",
+      "sidebar": "tutorialSidebar"
+    },
+    "general-ai/poetry": {
+      "id": "general-ai/poetry",
+      "title": "浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+      "description": "人类：",
+      "sidebar": "tutorialSidebar"
+    },
+    "general-ai/Stable-Diffusion": {
+      "id": "general-ai/Stable-Diffusion",
+      "title": "用Stable Diffusion画美女",
+      "description": "Stable Diffusion是一个基于Latent Diffusion Models（潜在扩散模型，LDMs）的文图生成（text-to-image）模型。它是由CompVis、Stability AI和LAION共同开发的一个文本转图像模型，可以将文本描述转换为图像。",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "intro",
+      "description": "过往原创博客文章，即2023年04月17日之前的原创博文的结构化知识整理。这个时间点之后再发原创文章可能大多就不以博客的形式发出了，而是以知识整理的形式发出放在知识库里。这样的好处是，知识整理的形式更加结构化，更加便于读者学习和检索，更加便于分享。",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

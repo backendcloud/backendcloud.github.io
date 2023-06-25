@@ -1,0 +1,37 @@
+{
+  "unversionedId": "cloud-native/client-go/client-go-02",
+  "id": "cloud-native/client-go/client-go-02",
+  "title": "client-go 源码分析（2） - discovery模块：discovery cache",
+  "description": "DiscoveryClient可以将资源相关信息存储于本地，默认存储位置为～/.kube/cache和～/.kube/http-cache。缓存可以减轻client-go对KubernetesAPI Server的访问压力。默认每10分钟与Kubernetes API Server同步一次，同步周期较长，因为资源组、源版本、资源信息一般很少变动。DiscoveryClient第一次获取资源组、资源版本、资源信息时，首先会查询本地缓存，如果数据不存在（没有命中）则请求Kubernetes API Server接口（回源），Cache将Kubernetes API Server响应的数据存储在本地一份并返回给DiscoveryClient。当下一次DiscoveryClient再次获取资源信息时，会将数据直接从本地缓存返回（命中）给DiscoveryClient。本地缓存的默认存储周期为10分钟（对应CachedDiscoveryClient 结构体的ttl属性，超时时间）。代码示例如下：",
+  "source": "@site/docs/cloud-native/client-go/client-go-02.md",
+  "sourceDirName": "cloud-native/client-go",
+  "slug": "/cloud-native/client-go/client-go-02",
+  "permalink": "/docs/cloud-native/client-go/client-go-02",
+  "draft": false,
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-02.md",
+  "tags": [
+    {
+      "label": "client-go",
+      "permalink": "/docs/tags/client-go"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "client-go 源码分析（2） - discovery模块：discovery cache",
+    "readmore": true,
+    "date": "2022-11-25T10:06:45.000Z",
+    "categories": "云原生",
+    "tags": [
+      "client-go"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "client-go 源码分析（1） - discovery模块：discoveryclient获取所有的gv和gvr",
+    "permalink": "/docs/cloud-native/client-go/client-go-01"
+  },
+  "next": {
+    "title": "client-go 源码分析（3） - rest模块",
+    "permalink": "/docs/cloud-native/client-go/client-go-03"
+  }
+}

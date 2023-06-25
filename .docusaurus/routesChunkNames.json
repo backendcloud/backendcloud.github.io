@@ -1,0 +1,340 @@
+{
+  "/blog-757": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "4c05fd78"
+      },
+      {
+        "content": "3ace45fc"
+      },
+      {
+        "content": "d78bfdec"
+      },
+      {
+        "content": "5d8b988d"
+      },
+      {
+        "content": "44d9e711"
+      },
+      {
+        "content": "a72ccb15"
+      },
+      {
+        "content": "998a4675"
+      },
+      {
+        "content": "08b46e8d"
+      },
+      {
+        "content": "65b7a590"
+      },
+      {
+        "content": "08f302f5"
+      }
+    ],
+    "metadata": "b2b675dd"
+  },
+  "/blog/archive-c44": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "archive": "b2f554cd"
+  },
+  "/blog/Auto-GPT-8f0": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "content": "2f08aa05"
+  },
+  "/blog/claude-918": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "content": "68a1d766"
+  },
+  "/blog/GFPGAN-dd8": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "content": "7d2bd76f"
+  },
+  "/blog/GUI-ChatGPT-988": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "content": "e59db855"
+  },
+  "/blog/Hexo2Docusaurus-5a0": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "content": "72fefe01"
+  },
+  "/blog/Hexo2DocusaurusBlog-68a": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "content": "d1d84af9"
+  },
+  "/blog/Hugging-Push-e7e": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "content": "6bf0f389"
+  },
+  "/blog/hugginggpt-paper-6d0": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "content": "b70d3f45"
+  },
+  "/blog/MiniGPT-4-dc8": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "content": "b6cf2f56"
+  },
+  "/blog/tags-403": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "tags": "a7023ddc"
+  },
+  "/blog/tags/后端云发布的开源小项目-192": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "65b7a590"
+      }
+    ],
+    "tag": "8370d3be",
+    "listMetadata": "28f98f81"
+  },
+  "/blog/tags/通用人工智能-5a2": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "4c05fd78"
+      },
+      {
+        "content": "3ace45fc"
+      },
+      {
+        "content": "d78bfdec"
+      },
+      {
+        "content": "44d9e711"
+      },
+      {
+        "content": "a72ccb15"
+      },
+      {
+        "content": "998a4675"
+      },
+      {
+        "content": "08b46e8d"
+      }
+    ],
+    "tag": "1fe1cbec",
+    "listMetadata": "a36eb21b"
+  },
+  "/blog/tags/cicd-8c1": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "5d8b988d"
+      }
+    ],
+    "tag": "cacc8518",
+    "listMetadata": "dd085f30"
+  },
+  "/blog/tags/docusaurus-fef": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "08f302f5"
+      }
+    ],
+    "tag": "a80da1cf",
+    "listMetadata": "608ae6a4"
+  },
+  "/blog/tags/hexo-229": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "08f302f5"
+      }
+    ],
+    "tag": "6c82b609",
+    "listMetadata": "93da486c"
+  },
+  "/blog/voice-assistant-165": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "34854d2c"
+    },
+    "sidebar": "814f3328",
+    "content": "9df3b353"
+  },
+  "/docs/tags-923": {
+    "__comp": "3720c009",
+    "__context": {
+      "plugin": "d888fb10"
+    },
+    "tags": "55960ee5"
+  },
+  "/docs/tags/client-go-ff6": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "d888fb10"
+    },
+    "tag": "8482250f"
+  },
+  "/markdown-page-676": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "10266310"
+    },
+    "content": "393be207"
+  },
+  "/docs-d0f": {
+    "__comp": "1be78505",
+    "__context": {
+      "plugin": "d888fb10"
+    },
+    "versionMetadata": "935f2afb"
+  },
+  "/docs/category/通用人工智能-550": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "601536af"
+  },
+  "/docs/category/云原生-a7b": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "5d0923c6"
+  },
+  "/docs/category/client-go-e30": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "69e7eeeb"
+  },
+  "/docs/cloud-native/client-go/client-go-01-d94": {
+    "__comp": "17896441",
+    "content": "209ab749"
+  },
+  "/docs/cloud-native/client-go/client-go-02-b01": {
+    "__comp": "17896441",
+    "content": "4550e474"
+  },
+  "/docs/cloud-native/client-go/client-go-03-222": {
+    "__comp": "17896441",
+    "content": "122b58a6"
+  },
+  "/docs/cloud-native/client-go/client-go-04-656": {
+    "__comp": "17896441",
+    "content": "39ba583e"
+  },
+  "/docs/cloud-native/client-go/client-go-05-4ff": {
+    "__comp": "17896441",
+    "content": "317f601f"
+  },
+  "/docs/cloud-native/client-go/client-go-06-4b7": {
+    "__comp": "17896441",
+    "content": "91f55282"
+  },
+  "/docs/cloud-native/client-go/client-go-07-e40": {
+    "__comp": "17896441",
+    "content": "aeca474d"
+  },
+  "/docs/cloud-native/client-go/client-go-08-182": {
+    "__comp": "17896441",
+    "content": "b3617c5f"
+  },
+  "/docs/cloud-native/client-go/client-go-09-46c": {
+    "__comp": "17896441",
+    "content": "8bb8b083"
+  },
+  "/docs/cloud-native/client-go/client-go-10-07e": {
+    "__comp": "17896441",
+    "content": "167a51fa"
+  },
+  "/docs/general-ai/gpt4-for-free-411": {
+    "__comp": "17896441",
+    "content": "36a9cb43"
+  },
+  "/docs/general-ai/gpt4-microsoft-c57": {
+    "__comp": "17896441",
+    "content": "5c22f7d4"
+  },
+  "/docs/general-ai/gpt4-release-519": {
+    "__comp": "17896441",
+    "content": "8a9094e6"
+  },
+  "/docs/general-ai/poem2picture-d04": {
+    "__comp": "17896441",
+    "content": "8c653c3d"
+  },
+  "/docs/general-ai/poetry-c47": {
+    "__comp": "17896441",
+    "content": "7f224f1c"
+  },
+  "/docs/general-ai/Stable-Diffusion-1de": {
+    "__comp": "17896441",
+    "content": "73aeba62"
+  },
+  "/docs/intro-aed": {
+    "__comp": "17896441",
+    "content": "0e384e19"
+  },
+  "/-eba": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "10266310"
+    },
+    "content": "e7ce6630"
+  }
+}

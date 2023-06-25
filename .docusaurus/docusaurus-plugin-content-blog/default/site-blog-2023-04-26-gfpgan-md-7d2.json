@@ -1,0 +1,40 @@
+{
+  "permalink": "/blog/GFPGAN",
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-26-GFPGAN.md",
+  "source": "@site/blog/2023-04-26-GFPGAN.md",
+  "title": "重温昔日美好瞬间！AI技术帮你修复老旧照片！",
+  "description": "本篇介绍一款开源的AI技术，可以帮助你修复老旧照片，让你重温昔日美好瞬间！",
+  "date": "2023-04-26T00:00:00.000Z",
+  "formattedDate": "2023年4月26日",
+  "tags": [
+    {
+      "label": "通用人工智能",
+      "permalink": "/blog/tags/通用人工智能"
+    }
+  ],
+  "readingTime": 2.415,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "backendcloud",
+      "title": "后端云",
+      "url": "https://www.backendcloud.cn",
+      "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+      "key": "backendcloud"
+    }
+  ],
+  "frontMatter": {
+    "slug": "GFPGAN",
+    "title": "重温昔日美好瞬间！AI技术帮你修复老旧照片！",
+    "authors": [
+      "backendcloud"
+    ],
+    "tags": [
+      "通用人工智能"
+    ]
+  },
+  "nextItem": {
+    "title": "软微最新的HuggingGPT论文解读",
+    "permalink": "/blog/hugginggpt-paper"
+  }
+}

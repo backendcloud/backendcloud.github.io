@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/",
+  "source": "@site/src/pages/index.mdx",
+  "title": "欢迎光临",
+  "description": "联系方式:",
+  "frontMatter": {
+    "title": "欢迎光临"
+  }
+}

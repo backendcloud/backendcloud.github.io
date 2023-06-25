@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/MiniGPT-4",
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-19-MiniGPT-4.md",
+  "source": "@site/blog/2023-04-19-MiniGPT-4.md",
+  "title": "介绍两个好玩的AI开源项目：MiniGPT-4和AnimatedDrawings",
+  "description": "MiniGPT-4",
+  "date": "2023-04-19T00:00:00.000Z",
+  "formattedDate": "2023年4月19日",
+  "tags": [
+    {
+      "label": "通用人工智能",
+      "permalink": "/blog/tags/通用人工智能"
+    }
+  ],
+  "readingTime": 3.765,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "backendcloud",
+      "title": "后端云",
+      "url": "https://www.backendcloud.cn",
+      "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+      "key": "backendcloud"
+    }
+  ],
+  "frontMatter": {
+    "slug": "MiniGPT-4",
+    "title": "介绍两个好玩的AI开源项目：MiniGPT-4和AnimatedDrawings",
+    "authors": [
+      "backendcloud"
+    ],
+    "tags": [
+      "通用人工智能"
+    ]
+  },
+  "prevItem": {
+    "title": "自我prompt，自主完成任务的Auto-GPT，一种应用AI的新思路",
+    "permalink": "/blog/Auto-GPT"
+  },
+  "nextItem": {
+    "title": "发布一个开源小工具 Hexo2DocusaurusBlog",
+    "permalink": "/blog/Hexo2DocusaurusBlog"
+  }
+}

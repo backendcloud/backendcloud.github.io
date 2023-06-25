@@ -1,0 +1,45 @@
+{
+  "title": "全部博文",
+  "items": [
+    {
+      "title": "重温昔日美好瞬间！AI技术帮你修复老旧照片！",
+      "permalink": "/blog/GFPGAN"
+    },
+    {
+      "title": "软微最新的HuggingGPT论文解读",
+      "permalink": "/blog/hugginggpt-paper"
+    },
+    {
+      "title": "发布一个开源小项目 - 语音助手",
+      "permalink": "/blog/voice-assistant"
+    },
+    {
+      "title": "发布一个开源小项目 - Hugging Push",
+      "permalink": "/blog/Hugging-Push"
+    },
+    {
+      "title": "发布一个开源小项目 - GUI版的ChatGPT API",
+      "permalink": "/blog/GUI-ChatGPT"
+    },
+    {
+      "title": "免费使用ChatGPT的有力竞品Claude，Claude用起来太顺畅了",
+      "permalink": "/blog/claude"
+    },
+    {
+      "title": "自我prompt，自主完成任务的Auto-GPT，一种应用AI的新思路",
+      "permalink": "/blog/Auto-GPT"
+    },
+    {
+      "title": "介绍两个好玩的AI开源项目：MiniGPT-4和AnimatedDrawings",
+      "permalink": "/blog/MiniGPT-4"
+    },
+    {
+      "title": "发布一个开源小工具 Hexo2DocusaurusBlog",
+      "permalink": "/blog/Hexo2DocusaurusBlog"
+    },
+    {
+      "title": "网站准备从Hexo迁移到Docusaurus",
+      "permalink": "/blog/Hexo2Docusaurus"
+    }
+  ]
+}

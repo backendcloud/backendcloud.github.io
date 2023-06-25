@@ -1,0 +1,27 @@
+{
+  "unversionedId": "general-ai/poetry",
+  "id": "general-ai/poetry",
+  "title": "浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+  "description": "人类：",
+  "source": "@site/docs/general-ai/poetry.md",
+  "sourceDirName": "general-ai",
+  "slug": "/general-ai/poetry",
+  "permalink": "/docs/general-ai/poetry",
+  "draft": false,
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/general-ai/poetry.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 14,
+  "frontMatter": {
+    "sidebar_position": 14
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "用Stable Diffusion画美女",
+    "permalink": "/docs/general-ai/Stable-Diffusion"
+  },
+  "next": {
+    "title": "自动化 浪漫古风，AI添彩——ChatGPT 和 Dall-E 2 联手为中国古诗注入生命和色彩！",
+    "permalink": "/docs/general-ai/poem2picture"
+  }
+}

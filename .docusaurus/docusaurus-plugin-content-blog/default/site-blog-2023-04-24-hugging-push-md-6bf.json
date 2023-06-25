@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/Hugging-Push",
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-24-Hugging-Push.md",
+  "source": "@site/blog/2023-04-24-Hugging-Push.md",
+  "title": "发布一个开源小项目 - Hugging Push",
+  "description": "Hugging Push的Github市场的URL： https://github.com/marketplace/actions/hugging-push",
+  "date": "2023-04-24T00:00:00.000Z",
+  "formattedDate": "2023年4月24日",
+  "tags": [
+    {
+      "label": "CICD",
+      "permalink": "/blog/tags/cicd"
+    }
+  ],
+  "readingTime": 2.565,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "backendcloud",
+      "title": "后端云",
+      "url": "https://www.backendcloud.cn",
+      "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+      "key": "backendcloud"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Hugging-Push",
+    "title": "发布一个开源小项目 - Hugging Push",
+    "authors": [
+      "backendcloud"
+    ],
+    "tags": [
+      "CICD"
+    ]
+  },
+  "prevItem": {
+    "title": "发布一个开源小项目 - 语音助手",
+    "permalink": "/blog/voice-assistant"
+  },
+  "nextItem": {
+    "title": "发布一个开源小项目 - GUI版的ChatGPT API",
+    "permalink": "/blog/GUI-ChatGPT"
+  }
+}

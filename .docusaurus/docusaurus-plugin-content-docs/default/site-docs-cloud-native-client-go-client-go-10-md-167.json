@@ -1,0 +1,37 @@
+{
+  "unversionedId": "cloud-native/client-go/client-go-10",
+  "id": "cloud-native/client-go/client-go-10",
+  "title": "client-go 源码分析（10） - 使用client-go实现一个简单controller的例子",
+  "description": "下面的example也是client-go官方的例子。通过这个简单的例子正好把之前的源码分析的一个个模块都串起来了。",
+  "source": "@site/docs/cloud-native/client-go/client-go-10.md",
+  "sourceDirName": "cloud-native/client-go",
+  "slug": "/cloud-native/client-go/client-go-10",
+  "permalink": "/docs/cloud-native/client-go/client-go-10",
+  "draft": false,
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-10.md",
+  "tags": [
+    {
+      "label": "client-go",
+      "permalink": "/docs/tags/client-go"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "client-go 源码分析（10） - 使用client-go实现一个简单controller的例子",
+    "readmore": true,
+    "date": "2022-12-16T12:38:33.000Z",
+    "categories": "云原生",
+    "tags": [
+      "client-go"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "client-go 源码分析（9） - workerqueue之限速队列RateLimitingQueue",
+    "permalink": "/docs/cloud-native/client-go/client-go-09"
+  },
+  "next": {
+    "title": "通用人工智能",
+    "permalink": "/docs/category/通用人工智能"
+  }
+}

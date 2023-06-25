@@ -1,0 +1,37 @@
+{
+  "unversionedId": "cloud-native/client-go/client-go-06",
+  "id": "cloud-native/client-go/client-go-06",
+  "title": "client-go 源码分析（6） - DeltaFIFO",
+  "description": "DeltaFIFO也包含在 Informer 中。DeltaFIFO 是 Delta + FIFO（先进先出队列），Delta的数据格式如下。DeltaType是String的类型，只有四种，分别是增加，更新，删除，同步。作为FIFO，有push和pop方法。",
+  "source": "@site/docs/cloud-native/client-go/client-go-06.md",
+  "sourceDirName": "cloud-native/client-go",
+  "slug": "/cloud-native/client-go/client-go-06",
+  "permalink": "/docs/cloud-native/client-go/client-go-06",
+  "draft": false,
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-06.md",
+  "tags": [
+    {
+      "label": "client-go",
+      "permalink": "/docs/tags/client-go"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "client-go 源码分析（6） - DeltaFIFO",
+    "readmore": true,
+    "date": "2022-12-06T15:23:04.000Z",
+    "categories": "云原生",
+    "tags": [
+      "client-go"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "client-go 源码分析（5） - informer机制中的本地存储indexer",
+    "permalink": "/docs/cloud-native/client-go/client-go-05"
+  },
+  "next": {
+    "title": "client-go 源码分析（7） - workerqueue之普通队列Queue",
+    "permalink": "/docs/cloud-native/client-go/client-go-07"
+  }
+}

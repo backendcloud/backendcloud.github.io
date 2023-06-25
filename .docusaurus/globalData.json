@@ -1,0 +1,128 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "cloud-native/client-go/client-go-01",
+              "path": "/docs/cloud-native/client-go/client-go-01",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cloud-native/client-go/client-go-02",
+              "path": "/docs/cloud-native/client-go/client-go-02",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cloud-native/client-go/client-go-03",
+              "path": "/docs/cloud-native/client-go/client-go-03",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cloud-native/client-go/client-go-04",
+              "path": "/docs/cloud-native/client-go/client-go-04",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cloud-native/client-go/client-go-05",
+              "path": "/docs/cloud-native/client-go/client-go-05",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cloud-native/client-go/client-go-06",
+              "path": "/docs/cloud-native/client-go/client-go-06",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cloud-native/client-go/client-go-07",
+              "path": "/docs/cloud-native/client-go/client-go-07",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cloud-native/client-go/client-go-08",
+              "path": "/docs/cloud-native/client-go/client-go-08",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cloud-native/client-go/client-go-09",
+              "path": "/docs/cloud-native/client-go/client-go-09",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cloud-native/client-go/client-go-10",
+              "path": "/docs/cloud-native/client-go/client-go-10",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "general-ai/gpt4-for-free",
+              "path": "/docs/general-ai/gpt4-for-free",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "general-ai/gpt4-microsoft",
+              "path": "/docs/general-ai/gpt4-microsoft",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "general-ai/gpt4-release",
+              "path": "/docs/general-ai/gpt4-release",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "general-ai/poem2picture",
+              "path": "/docs/general-ai/poem2picture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "general-ai/poetry",
+              "path": "/docs/general-ai/poetry",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "general-ai/Stable-Diffusion",
+              "path": "/docs/general-ai/Stable-Diffusion",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/云原生",
+              "path": "/docs/category/云原生",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/client-go",
+              "path": "/docs/category/client-go",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/通用人工智能",
+              "path": "/docs/category/通用人工智能",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "client-go",
+  "description": "client-go源码分析",
+  "slug": "/category/client-go",
+  "permalink": "/docs/category/client-go",
+  "navigation": {
+    "previous": {
+      "title": "云原生",
+      "permalink": "/docs/category/云原生"
+    },
+    "next": {
+      "title": "client-go 源码分析（1） - discovery模块：discoveryclient获取所有的gv和gvr",
+      "permalink": "/docs/cloud-native/client-go/client-go-01"
+    }
+  }
+}

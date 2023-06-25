@@ -1,0 +1,37 @@
+{
+  "unversionedId": "cloud-native/client-go/client-go-04",
+  "id": "cloud-native/client-go/client-go-04",
+  "title": "client-go 源码分析（4） - ClientSet客户端 和 DynamicClient客户端",
+  "description": "本篇的主题是客户端ClientSet。ClientSet和DynamicClient的优缺点正好互换。ClientSet只能操作内置的资源对象，DynamicClient不仅可以操作内置的资源对象，也可以操作CRD；ClientSet有类型检查，DynamicClient没有。",
+  "source": "@site/docs/cloud-native/client-go/client-go-04.md",
+  "sourceDirName": "cloud-native/client-go",
+  "slug": "/cloud-native/client-go/client-go-04",
+  "permalink": "/docs/cloud-native/client-go/client-go-04",
+  "draft": false,
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/cloud-native/client-go/client-go-04.md",
+  "tags": [
+    {
+      "label": "client-go",
+      "permalink": "/docs/tags/client-go"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "title": "client-go 源码分析（4） - ClientSet客户端 和 DynamicClient客户端",
+    "readmore": true,
+    "date": "2022-11-25T20:24:49.000Z",
+    "categories": "云原生",
+    "tags": [
+      "client-go"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "client-go 源码分析（3） - rest模块",
+    "permalink": "/docs/cloud-native/client-go/client-go-03"
+  },
+  "next": {
+    "title": "client-go 源码分析（5） - informer机制中的本地存储indexer",
+    "permalink": "/docs/cloud-native/client-go/client-go-05"
+  }
+}

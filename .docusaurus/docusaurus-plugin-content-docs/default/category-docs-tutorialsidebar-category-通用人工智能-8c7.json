@@ -1,0 +1,16 @@
+{
+  "title": "通用人工智能",
+  "description": "通用人工智能，以及借助通用人工智能技术，一切皆可自动化。",
+  "slug": "/category/通用人工智能",
+  "permalink": "/docs/category/通用人工智能",
+  "navigation": {
+    "previous": {
+      "title": "client-go 源码分析（10） - 使用client-go实现一个简单controller的例子",
+      "permalink": "/docs/cloud-native/client-go/client-go-10"
+    },
+    "next": {
+      "title": "GPT4在各种专业和学术基准上表现出全面超越人类水平的表现",
+      "permalink": "/docs/general-ai/gpt4-release"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "permalink": "/blog/Hexo2Docusaurus",
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/blog/2023-04-17-Hexo2Docusaurus.md",
+  "source": "@site/blog/2023-04-17-Hexo2Docusaurus.md",
+  "title": "网站准备从Hexo迁移到Docusaurus",
+  "description": "网站准备从Hexo迁移到Docusaurus了。原因如下：",
+  "date": "2023-04-17T00:00:00.000Z",
+  "formattedDate": "2023年4月17日",
+  "tags": [
+    {
+      "label": "Hexo",
+      "permalink": "/blog/tags/hexo"
+    },
+    {
+      "label": "Docusaurus",
+      "permalink": "/blog/tags/docusaurus"
+    }
+  ],
+  "readingTime": 0.815,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "backendcloud",
+      "title": "后端云",
+      "url": "https://www.backendcloud.cn",
+      "imageURL": "https://avatars.githubusercontent.com/u/15382060?v=4",
+      "key": "backendcloud"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Hexo2Docusaurus",
+    "title": "网站准备从Hexo迁移到Docusaurus",
+    "authors": [
+      "backendcloud"
+    ],
+    "tags": [
+      "Hexo",
+      "Docusaurus"
+    ]
+  },
+  "prevItem": {
+    "title": "发布一个开源小工具 Hexo2DocusaurusBlog",
+    "permalink": "/blog/Hexo2DocusaurusBlog"
+  }
+}

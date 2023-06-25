@@ -1,0 +1,27 @@
+{
+  "unversionedId": "general-ai/gpt4-release",
+  "id": "general-ai/gpt4-release",
+  "title": "GPT4在各种专业和学术基准上表现出全面超越人类水平的表现",
+  "description": "昨天OpenAI发布GPT4，相较于GPT3.5，GPT4的能力提升，官方给的回答是：在随意的谈话中，GPT-3.5 和 GPT-4 之间的区别可能很微妙。当任务的复杂性达到足够的阈值时，差异就会出现 GPT-4 比 GPT-3.5 更可靠、更有创意，并且能够处理更细微的指令。",
+  "source": "@site/docs/general-ai/gpt4-release.md",
+  "sourceDirName": "general-ai",
+  "slug": "/general-ai/gpt4-release",
+  "permalink": "/docs/general-ai/gpt4-release",
+  "draft": false,
+  "editUrl": "https://github.com/backendcloud/backendcloud.github.io/tree/main/docs/general-ai/gpt4-release.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "通用人工智能",
+    "permalink": "/docs/category/通用人工智能"
+  },
+  "next": {
+    "title": "如何免费试用GPT4",
+    "permalink": "/docs/general-ai/gpt4-for-free"
+  }
+}
